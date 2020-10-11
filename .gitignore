@@ -1,0 +1,29 @@
+#ignore folders
+natives/*
+minecraft/config/*
+minecraft/coremods/*
+minecraft/journeymap/*
+minecraft/llibrary/*
+minecraft/local/*
+minecraft/logs/*
+minecraft/mods/*
+minecraft/resourcepacks/*
+minecraft/saves/*
+minecraft/screenshots/*
+minecraft/server-resource-packs/*
+minecraft/shaderpacks/*
+minecraft/texturepacks/*
+
+# ignore files
+Conquest_Industrial_Arcane.code-workspace
+instance.cfg
+minecraft/.ReAuth.cfg
+minecraft/BotaniaVars.dat
+minecraft/crafttweaker.log
+minecraft/icon.png
+minecraft/knownkeys.txt
+minecraft/options.txt
+minecraft/optionsof.txt
+minecraft/patchouli_data.json
+minecraft/usercache.json
+minecraft/usernamecache.json
