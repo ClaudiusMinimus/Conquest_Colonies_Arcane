@@ -27,3 +27,14 @@ minecraft/optionsof.txt
 minecraft/patchouli_data.json
 minecraft/usercache.json
 minecraft/usernamecache.json
+
+#do not ignore these folders
+!minecraft/config/brandon3055
+!minecraft/config/brandon3055/CSG
+#but still ignore these
+minecraft/config/brandon3055/*.cfg
+minecraft/config/brandon3055/*.txt
+minecraft/config/brandon3055/ProjectIntelligence/*
+
+#do not ignore these files
+!minecraft/config/geolosys.json
