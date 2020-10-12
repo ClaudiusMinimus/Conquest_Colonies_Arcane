@@ -37,5 +37,6 @@ minecraft/config/brandon3055/*.txt
 minecraft/config/brandon3055/ProjectIntelligence/*
 
 #do not ignore these files
+!minecraft/config/bonsaitrees
 !minecraft/config/geolosys.json
 !minecraft/config/quark.cfg
