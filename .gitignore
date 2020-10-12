@@ -38,3 +38,4 @@ minecraft/config/brandon3055/ProjectIntelligence/*
 
 #do not ignore these files
 !minecraft/config/geolosys.json
+!minecraft/config/quark.cfg
