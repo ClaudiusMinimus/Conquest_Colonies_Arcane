@@ -1,0 +1,1 @@
+./twitch-export-builder_linux_amd64 -d="/home/helaman/.local/share/multimc/instances/Conquest_Industrial_Arcane/minecraft" -n="Conquest Industry Arcane" -p=0.1.0 -c=".build.json"
