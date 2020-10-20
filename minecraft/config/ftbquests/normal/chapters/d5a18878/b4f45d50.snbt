@@ -1,0 +1,42 @@
+{
+	title: "Mining ain't what it used to be",
+	icon: "exnihilocreatio:block_sieve",
+	x: -0.75d,
+	y: 1.25d,
+	text: [
+		"I've been digging all day and all I have to show for it is a few rocks and some gravel. If only I had a sieve, then I might see if there is anything of value in this gravel. Now I wonder what would happen if some dirt, sand or even dust was filtered through my sieve? I guess I had best find out.",
+		"",
+		"§6>>>> IMPORTANT TIP <<<<",
+		"§r",
+		"Some recipes have conflicts with others, but we have you covered. While crafting your meshes, please notice below the crafting grid output window the  \"2\" with an arrow beneath. By default, 9-strings will craft a Net from CR. However, if you click the arrow, you will then see the other item this recipe can make, which is the Ex Nihlo Creatio mesh. With the mesh selected you can remove them from the output window. You may find this tip useful with other recipes too."
+	],
+	dependencies: [
+		"cf6e8e97"
+	],
+	tasks: [{
+		uid: "a69e60f7",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7a06d207",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 4 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "49c17fa4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

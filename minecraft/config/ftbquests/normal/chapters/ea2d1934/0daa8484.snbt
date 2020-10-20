@@ -1,0 +1,31 @@
+{
+	title: "A Bit About",
+	icon: "minecraft:skull 1 5",
+	x: -5.5d,
+	y: 1.25d,
+	shape: "diamond",
+	text: [
+		"Conquest Colonies Arcane builds upon the beauty of Conquest Reforged and the challenge of MineColonies, the pack itself is based upon Conquest Colonies by, Dranem. In this world of yesteryear, you will also enjoy a few of the modern tools of technology mixed with some magic sprinkled in. However, watch out for many powerful mythical monsters that can kill with a single breath.",
+		"",
+		"Eventually, you will ride with the winds and into legend...",
+		"",
+		"Be sure to have fun along the way!",
+		"",
+		"Enjoy your slime boots - eliminates fall damage!"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b6603d54",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4e5d485a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "2057cb28",
+		type: "item",
+		item: "tconstruct:slime_boots"
+	}]
+}

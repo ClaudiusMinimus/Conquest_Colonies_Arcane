@@ -1,0 +1,44 @@
+{
+	title: "Drawer Doubling",
+	icon: "storagedrawers:upgrade_storage",
+	x: 0.25d,
+	y: 4.0d,
+	text: [
+		"Did you know you can upgrade your storage drawers? In fact there are five levels of storage upgrade capacity for 2-32 times the base storage amount. You can also have nine upgrade slots per drawer."
+	],
+	dependencies: [
+		"5a3aa909"
+	],
+	tasks: [{
+		uid: "08fb90a6",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "cbf74cf6",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 1",
+		count: 4
+	},
+	{
+		uid: "89c7061f",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 2",
+		count: 6
+	},
+	{
+		uid: "43cfeb43",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 3",
+		count: 8
+	},
+	{
+		uid: "48bb1909",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 10
+	}]
+}

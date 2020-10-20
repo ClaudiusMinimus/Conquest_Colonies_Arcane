@@ -1,0 +1,68 @@
+{
+	title: "Better than a tin can",
+	icon: {
+		id: "conarm:chest_core",
+		tag: {
+			Material: "iron"
+		}
+	},
+	x: 1.75d,
+	y: 4.25d,
+	text: [
+		"For the latest in Medievel styling, try these shinny iron core parts for your old worn out flint armor cores. To make this even better, we are including in this deal four Reinforment Plates to add durability to your armor. When your armor has enough XP, you can stack up to five reinforcement plates to make your armor unbreakable!"
+	],
+	dependencies: [
+		"f792900f"
+	],
+	tasks: [{
+		uid: "ae3412e6",
+		type: "item",
+		items: [{
+			id: "conarm:helmet_core",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	},
+	{
+		uid: "d09d3a7a",
+		type: "item",
+		items: [{
+			id: "conarm:chest_core",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	},
+	{
+		uid: "cbabd159",
+		type: "item",
+		items: [{
+			id: "conarm:leggings_core",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	},
+	{
+		uid: "3d5b2c5a",
+		type: "item",
+		items: [{
+			id: "conarm:boots_core",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8e1b76b7",
+		type: "item",
+		item: "tconstruct:materials 1 14",
+		count: 4
+	},
+	{
+		uid: "0e5085de",
+		type: "item",
+		item: "cyclicmagic:heart_food"
+	}]
+}

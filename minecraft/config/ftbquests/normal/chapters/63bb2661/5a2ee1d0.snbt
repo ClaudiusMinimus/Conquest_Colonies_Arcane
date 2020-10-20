@@ -1,0 +1,36 @@
+{
+	title: "Fresh Fish!",
+	icon: "minecolonies:blockhutfisherman",
+	x: -6.25d,
+	y: 9.25d,
+	text: [
+		"The Fisherman fishes in nearby ponds. The pond needs to be minimum 7x7 Blocks!",
+		"Upgrade his Hut so he will Fish better stuff out of Ponds like Enchanted Books/Rods.",
+		"He will also fish Pams Fishes."
+	],
+	dependencies: [
+		"897ac436"
+	],
+	tasks: [{
+		uid: "081a5b72",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfisherman"
+		}]
+	}],
+	rewards: [{
+		uid: "e13b4f7a",
+		type: "item",
+		item: "minecraft:fishing_rod",
+		count: 3
+	},
+	{
+		uid: "90868bed",
+		type: "item",
+		item: {
+			id: "jaff:iron_fishing_rod",
+			Count: 1,
+			Damage: 0
+		}
+	}]
+}

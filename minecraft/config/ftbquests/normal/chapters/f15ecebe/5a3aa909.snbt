@@ -1,0 +1,24 @@
+{
+	title: "One Drawer to Rule Them All",
+	icon: "storagedrawers:controller",
+	x: -2.75d,
+	y: 2.5d,
+	text: [
+		"A Drawer Controller provides a central point to emtpy your inventory and get a quick overview of what you have stored. To unload your inventory into drawers already with those items, simply right-click on the front of the Drawer Controller. To see the contents of all the drawers, press your sneak key while pointing your cursor at the controller."
+	],
+	dependencies: [
+		"1b9ea844"
+	],
+	tasks: [{
+		uid: "902cf5ae",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "92ef557f",
+		type: "item",
+		item: "storagedrawers:drawer_key"
+	}]
+}

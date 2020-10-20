@@ -1,0 +1,32 @@
+{
+	title: "Tree disaster",
+	icon: "minecolonies:blockhutlumberjack",
+	x: -3.25d,
+	y: 8.25d,
+	text: [
+		"The Lumberjack is Cutting down nearby Trees and automatic replanting them. In his Chest Interface press the Arrow \">>\" to choose wich Trees he should cut down and wich not.",
+		"Same as the Miner his Tool lvl is restricted to his Hut Block (for more infos see the Miner Quest)."
+	],
+	dependencies: [
+		"897ac436"
+	],
+	tasks: [{
+		uid: "e66e2444",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutlumberjack"
+		}]
+	}],
+	rewards: [{
+		uid: "3084fabb",
+		type: "item",
+		item: "minecraft:sapling",
+		count: 8
+	},
+	{
+		uid: "a6bdaf90",
+		type: "item",
+		item: "minecraft:sapling 1 2",
+		count: 8
+	}]
+}

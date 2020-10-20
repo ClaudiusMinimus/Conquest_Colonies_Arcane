@@ -1,0 +1,39 @@
+{
+	title: "One BIG Drawer",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: -4.25d,
+	y: 5.5d,
+	text: [
+		"So much stuff! What shall I do?  I need something bigger!"
+	],
+	dependencies: [
+		"230ca947"
+	],
+	tasks: [{
+		uid: "004b12af",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			Count: 8b,
+			tag: {
+				material: "oak"
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "240f3a91",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

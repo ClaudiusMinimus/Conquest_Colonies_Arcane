@@ -1,0 +1,30 @@
+{
+	title: "Coming Through!",
+	icon: "enderio:item_item_conduit",
+	x: 1.75d,
+	y: 7.0d,
+	text: [
+		"Item Conduit transfer items/blocks between inventories and/or machines, and is very useful for automation."
+	],
+	dependencies: [
+		"11576e20"
+	],
+	tasks: [{
+		uid: "3c945d11",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9ce09628",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

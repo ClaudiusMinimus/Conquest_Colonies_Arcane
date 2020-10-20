@@ -1,0 +1,30 @@
+{
+	title: "I Believe!!!",
+	icon: "storagedrawers:upgrade_conversion",
+	x: -1.25d,
+	y: 1.0d,
+	text: [
+		"Your incompatible ores can be saved with this faith alterting upgrade that will convert your ores (using the same oredict id) to a unifying state of harmony."
+	],
+	dependencies: [
+		"5a3aa909"
+	],
+	tasks: [{
+		uid: "d5ddf522",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_conversion 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "74a023f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Divide my Drawers",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 1s
+	},
+	x: -4.25d,
+	y: 4.0d,
+	text: [
+		"My drawers still runith over with so much junk. I feel like Fred Sanford. Alas, some 1x2 drawers to the rescue."
+	],
+	dependencies: [
+		"1b9ea844"
+	],
+	tasks: [{
+		uid: "b93eb089",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			Count: 8b,
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "36a5aae4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

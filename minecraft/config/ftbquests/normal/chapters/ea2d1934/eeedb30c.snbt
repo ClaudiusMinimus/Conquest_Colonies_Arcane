@@ -1,0 +1,23 @@
+{
+	title: "Get Your Rocks! Ore Excavation",
+	icon: "minecraft:diamond_pickaxe",
+	x: -4.0d,
+	y: -0.25d,
+	text: [
+		"Not able to mine fast enough? Have we got a deal for you! For an unlimited time, you can at absolutely no cost--except hunger or breaking your tool--you can mine possibly an entire vein at once. ",
+		"",
+		"To use Ultiminer just hold the ( ` ) grave/back-tick key while mining. By holding the ` key together with the sneak key you can specify the mining pattern using your wheel mouse. Have fun and don't blow up your world. hehe..."
+	],
+	dependencies: [
+		"5de9ee3c"
+	],
+	tasks: [{
+		uid: "0390cb86",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a6bc0e87",
+		type: "xp",
+		xp: 10
+	}]
+}

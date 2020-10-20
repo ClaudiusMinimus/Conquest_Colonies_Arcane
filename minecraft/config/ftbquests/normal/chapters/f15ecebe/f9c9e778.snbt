@@ -1,0 +1,32 @@
+{
+	title: "Hey Speedy",
+	icon: "enderio:item_extract_speed_upgrade",
+	x: 3.25d,
+	y: 7.0d,
+	text: [
+		"Ender IO Extract Speed Upgrades can really move things along. For near instant transfer of items stack up to 15 speed upgrades on any item conduit GUI. ",
+		"",
+		"The Item Conduit Speed Downgrade is an \"upgrade\" which decreases the speed at which items are extracted. The upgrade decreases the speed to 1 item per extraction."
+	],
+	dependencies: [
+		"2e1579a8"
+	],
+	tasks: [{
+		uid: "839098c8",
+		type: "item",
+		items: [{
+			item: "enderio:item_extract_speed_upgrade 5"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "dcd58553",
+		type: "item",
+		item: "enderio:item_extract_speed_downgrade"
+	},
+	{
+		uid: "53f94be9",
+		type: "item",
+		item: "enderio:item_conduit_probe"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "More than Fluff",
+	icon: "storagedrawers:trim",
+	x: 0.25d,
+	y: 2.5d,
+	text: [
+		"The drawer [wood type] Trim block can connect disjointed storage drawers to one system, provided the drawers are no more 12 blocks from the drawer controller."
+	],
+	dependencies: [
+		"5a3aa909"
+	],
+	tasks: [{
+		uid: "7c96344e",
+		type: "item",
+		items: [{
+			item: "storagedrawers:trim 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bf6c66b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

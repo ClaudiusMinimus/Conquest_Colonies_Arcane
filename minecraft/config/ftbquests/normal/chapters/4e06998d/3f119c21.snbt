@@ -1,0 +1,51 @@
+{
+	title: "An Armed Forger",
+	icon: {
+		id: "conarm:armorforge",
+		tag: {
+			textureBlock: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "chisel:blockcopper",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: -1.25d,
+	y: 4.25d,
+	text: [
+		"Ya know, my flint armor is okay, but I can still easily die in it. Could I use something stronger, like for example: iron? Sure, make an Armor Forge is the first step to upgrading your flint armor a piece at a time. Also with an Armor Forge, you can add modifiers that enhance with powerful bling and magic."
+	],
+	dependencies: [
+		"319d1eea"
+	],
+	tasks: [{
+		uid: "3c1460ee",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "chisel:blockcopper",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ff3e5ec7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

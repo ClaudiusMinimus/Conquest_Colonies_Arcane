@@ -1,0 +1,40 @@
+{
+	title: "Food for Years!",
+	icon: "minecolonies:blockhutfarmer",
+	x: -2.5d,
+	y: 3.25d,
+	text: [
+		"The Farmer is planting crops and harvisting them. He is working with scarecrows where you can choose the crop what the Farmer should farm. Its also working with Pam seeds ;)",
+		"Its highly recommened to have a dman and a warehouse cause his chest is mostly dumped of seeds and crop drops."
+	],
+	dependencies: [
+		"897ac436"
+	],
+	tasks: [{
+		uid: "b82fd9fb",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfarmer"
+		}]
+	},
+	{
+		uid: "8c50b7ab",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfield 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "ed37a0c3",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 16
+	},
+	{
+		uid: "13d61370",
+		type: "item",
+		item: "minecraft:hay_block",
+		count: 2
+	}]
+}

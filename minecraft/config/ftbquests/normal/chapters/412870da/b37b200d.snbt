@@ -1,0 +1,60 @@
+{
+	title: "Enchanted I'm sure",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s,
+				id: 44s
+			}]
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"The moon was out and I felt like magic was in the air. I heard from sister's husband's fourth cousin twice removed that on a full moon one can find out how to make a magical book that will make my sieves... well... magical."
+	],
+	tasks: [{
+		uid: "2be46dd4",
+		type: "item",
+		items: [{
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 43s
+				}]
+			}
+		}],
+		count: 4L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df370ec7",
+		type: "item",
+		items: [{
+			id: "minecraft:enchanted_book",
+			Count: 4b,
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 44s
+				}]
+			}
+		}],
+		count: 4L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64fd1ce9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

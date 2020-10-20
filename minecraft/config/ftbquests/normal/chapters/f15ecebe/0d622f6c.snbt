@@ -1,0 +1,25 @@
+{
+	title: "Open the flood gates",
+	icon: "enderio:item_liquid_conduit",
+	x: -1.25d,
+	y: 7.0d,
+	text: [
+		"Fluid Conduit transfer fluids with the help of gravity. Be sure any fluids being transferred the input is at the same elevation or higher than the output."
+	],
+	dependencies: [
+		"11576e20"
+	],
+	tasks: [{
+		uid: "d9dc7be2",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e3368986",
+		type: "item",
+		item: "enderio:block_tank"
+	}]
+}

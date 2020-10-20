@@ -1,0 +1,10 @@
+{
+	title: "Ore Processing",
+	icon: "enderio:block_simple_sag_mill",
+	description: [
+		"Once you have gathered some some ores and resources, you will need to process them. Soon, you will be doubling your ores and automating production."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

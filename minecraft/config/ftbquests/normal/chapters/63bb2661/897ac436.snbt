@@ -1,0 +1,31 @@
+{
+	title: "The best place to live!",
+	icon: "minecraft:bed 1 14",
+	x: -5.25d,
+	y: 7.25d,
+	text: [
+		"The Citizen hut is how you get more Citizens to spawn! Every Citizen need space in a Hut. If one Bed is free a new Citizen will spawn. Craft and place 3 Chests and upgrade them to lvl 2 to get 2 new Citizens."
+	],
+	dependencies: [
+		"1d959a16"
+	],
+	tasks: [{
+		uid: "ce003f3e",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcitizen 3"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "72fec0d0",
+		type: "item",
+		item: "minecraft:bread",
+		count: 16
+	},
+	{
+		uid: "49df660b",
+		type: "choice",
+		table: 2
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "I am Grout",
+	icon: "tconstruct:soil",
+	x: 3.25d,
+	y: 2.5d,
+	text: [
+		"To move into the mid-game tier tools and weapons, you need a Smeltery and to make a smeltery you need Grout.",
+		"",
+		"Craft 64 grout and then cook them in your furnace to make Seared Bricks."
+	],
+	dependencies: [
+		"5de6bce8"
+	],
+	tasks: [{
+		uid: "8d348665",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 64"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "bf55f436",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 64
+	}]
+}

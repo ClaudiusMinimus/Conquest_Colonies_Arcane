@@ -1,0 +1,13 @@
+{
+	title: "Starting the Colony",
+	icon: "minecolonies:supplycampdeployer",
+	description: [
+		"This Questline will help you guide through the Minecolonies mod. The basis for this questline was graciously provided by the developers of Minecolonies - to them, I say a big:",
+		"THANK YOU!",
+		"",
+		"You probably won't finish this questline until mid-game."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

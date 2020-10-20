@@ -1,0 +1,25 @@
+{
+	title: "Some Helpful Commands",
+	icon: "minecraft:bookshelf",
+	x: -2.5d,
+	y: -0.25d,
+	text: [
+		"These may help you in-game:",
+		"1. Try \"/rtp\" to teleport to a random location",
+		"2. \"/spawn\" to teleport home",
+		"3. \"/tpa [player name]\" to teleport to the player specified. The other player will need to click \"Accept\" to complete the teleport.",
+		"4. \"t\" to open the chat window and message other players."
+	],
+	dependencies: [
+		"5de9ee3c"
+	],
+	tasks: [{
+		uid: "5b78d806",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "767a7cd7",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "The Great Builder",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:sapling 1 1"
+	},
+	{
+		item: "minecraft:sapling 1 2"
+	}]
+}

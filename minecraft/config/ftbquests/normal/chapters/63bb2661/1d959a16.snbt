@@ -1,0 +1,31 @@
+{
+	title: "The Great Builder",
+	icon: "minecolonies:blockhutbuilder",
+	x: -7.25d,
+	y: 5.25d,
+	text: [
+		"The Builder is needet for building and upgrading your huts.",
+		"Craft his chest and place it with the tool. Once you did it open the Hut Menu and click on \"Build Building\". He will Start working and requests Items who are needet to build for his assignment."
+	],
+	dependencies: [
+		"6db7b9e1"
+	],
+	tasks: [{
+		uid: "f5a82e24",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutbuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "ec6d4f18",
+		type: "item",
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		uid: "ffea7606",
+		type: "choice",
+		table: 3
+	}]
+}

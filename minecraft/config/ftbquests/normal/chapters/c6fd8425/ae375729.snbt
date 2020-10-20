@@ -1,0 +1,30 @@
+{
+	title: "Hook Me Up!",
+	icon: "enderio:item_power_conduit 1 2",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Ender Conduit can throughput 4-times the amount of µI of Enhanced Energy Conduit."
+	],
+	dependencies: [
+		"01477566"
+	],
+	tasks: [{
+		uid: "3666e6b7",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 16 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "762ccb58",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

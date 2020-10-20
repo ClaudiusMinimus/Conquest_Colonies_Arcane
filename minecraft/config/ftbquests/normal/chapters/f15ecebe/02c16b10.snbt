@@ -1,0 +1,29 @@
+{
+	title: "Yes, Abominable Master",
+	icon: "storagedrawers:controller",
+	x: -1.25d,
+	y: 4.0d,
+	text: [
+		"A Drawer Controller Slave provides another access point for your drawers. The slave or controller can also be hooked up to a ME System, which will be covered later."
+	],
+	dependencies: [
+		"5a3aa909"
+	],
+	tasks: [{
+		uid: "295fd967",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controllerslave"
+		}]
+	}],
+	rewards: [{
+		uid: "8a217db2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

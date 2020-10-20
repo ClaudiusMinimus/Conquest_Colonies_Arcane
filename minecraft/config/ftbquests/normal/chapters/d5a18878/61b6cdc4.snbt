@@ -1,0 +1,31 @@
+{
+	title: "No Cobble V?",
+	icon: "tp:emerald_cobblegen_block",
+	x: 5.25d,
+	y: -0.25d,
+	text: [
+		"I thought these cobble songs would last. I more eye of the cobble or gonna fly cobble, but no more ;(",
+		"",
+		"Get it together man! Make a Tier 5 Cobblestone Generator and call it good."
+	],
+	dependencies: [
+		"26a77bbd"
+	],
+	tasks: [{
+		uid: "ebcdd767",
+		type: "item",
+		items: [{
+			item: "tp:emerald_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "6d74f682",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

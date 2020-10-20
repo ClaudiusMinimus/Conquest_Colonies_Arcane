@@ -1,0 +1,29 @@
+{
+	title: "Cobble III",
+	icon: "tp:diamond_cobblegen_block",
+	x: 2.25d,
+	y: -0.25d,
+	text: [
+		"It's the eye of the Cobble, it's the dream... What! More cobble! Oh well, sprinkle some fairy dust and ...  probably will do nothing but cause allergies. Maybe a Tier 3 Cobblestone Generator might fill your appetite for cobble."
+	],
+	dependencies: [
+		"75ee9b00"
+	],
+	tasks: [{
+		uid: "7ae4451e",
+		type: "item",
+		items: [{
+			item: "tp:diamond_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "8820e682",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

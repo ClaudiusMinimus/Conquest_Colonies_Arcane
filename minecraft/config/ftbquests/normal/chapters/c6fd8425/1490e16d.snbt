@@ -1,0 +1,33 @@
+{
+	title: "Meet Stirling",
+	icon: "enderio:block_stirling_generator",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"More POWER! The Stirling Generator goes beyond the simple version. As a reward you will receive a basic capacitor, which can be upgraded to improve the output of your generator."
+	],
+	dependencies: [
+		"cdf90389"
+	],
+	tasks: [{
+		uid: "aaad6d8d",
+		type: "item",
+		items: [{
+			item: "enderio:block_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "dbe1f08d",
+		type: "item",
+		item: {
+			id: "armorplus:lava_crystal",
+			Count: 10,
+			Damage: 0
+		}
+	},
+	{
+		uid: "32c714c5",
+		type: "item",
+		item: "enderio:item_basic_capacitor"
+	}]
+}

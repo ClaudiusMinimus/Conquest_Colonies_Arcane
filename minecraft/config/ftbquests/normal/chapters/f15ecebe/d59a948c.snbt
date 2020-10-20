@@ -1,0 +1,25 @@
+{
+	title: "Under Pressure",
+	icon: "enderio:item_liquid_conduit 1 1",
+	x: -2.75d,
+	y: 7.0d,
+	text: [
+		"Pressurized Fluid Conduit works regardless of input/output elevation. It is also much faster than basic Fluid Conduit."
+	],
+	dependencies: [
+		"0d622f6c"
+	],
+	tasks: [{
+		uid: "4d490ead",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 16 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "07ea7832",
+		type: "item",
+		item: "enderio:block_tank 1 1"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "The Place of my Colony",
+	icon: "minecolonies:blockhuttownhall",
+	x: -7.25d,
+	y: 3.0d,
+	text: [
+		"From the last Quest you choose one of two Supply Chest's. These are two different ways to start in Minecolonies. First there is the SupplyCamp wich requires dirt/grass ground and a space of 17x16 Blocks. Then there is the Supply Ship wich requires allot of water so when youre making the colony near an ocean (or a 32 x 20 pool of water). The Ship needs a space of 32x11 Blocks. After placing the Camp/Ship you got the Buildingtool and the Townhall Hut from the generated Chest, take it and find a spot for your Colony. You found one? Great! Go ahead and rightclick with the Buildingtool to open the Hut preview. On top you see 3 categories: One to select the Modes (HutBlocks/Your Custom Schematics/decorations), The Custom Style you want to build and the Hut if you have multiplie HutBlocks in your inventory. Choose your fav. Style for the Townhall and move it to the direction you want it.",
+		"",
+		"Hint: press ESC to move arround while the preview is still there.."
+	],
+	dependencies: [
+		"595aa43c"
+	],
+	tasks: [{
+		uid: "ae9a7955",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Sheep automation",
+	icon: "minecolonies:blockhutshepherd",
+	x: -4.5d,
+	y: 2.75d,
+	text: [
+		"The Sheep Herder is a simple Sheep farm with a Worker.",
+		"The Worker will shear Sheeps and automaticly dye them",
+		"so you have colored wool for later (you need allot for carpets).",
+		"Herders have a maximun at Animals per Hut lvl.",
+		"They will kill Animals who are over the Maximum!"
+	],
+	dependencies: [
+		"723977c7"
+	],
+	tasks: [{
+		uid: "f3eefd48",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutshepherd"
+		}]
+	}],
+	rewards: [{
+		uid: "66bb8de2",
+		type: "item",
+		item: "minecraft:stone_axe"
+	},
+	{
+		uid: "87a31130",
+		type: "item",
+		item: "minecraft:wheat",
+		count: 8
+	}]
+}

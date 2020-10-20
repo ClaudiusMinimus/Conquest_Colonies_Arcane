@@ -1,0 +1,19 @@
+{
+	title: "Internal",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s,
+				id: 44s
+			}]
+		}
+	},
+	description: [
+		"This chapter contains internal or \"orphaned\" quests,",
+		"which are quests in Better Questing that do not have a chapter associated with them"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

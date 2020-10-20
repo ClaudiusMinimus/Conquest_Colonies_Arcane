@@ -31,6 +31,7 @@ minecraft/usernamecache.json
 #do not ignore these folders
 !minecraft/config/brandon3055
 !minecraft/config/brandon3055/CSG
+!minecraft/config/ftbquests
 #but still ignore these
 minecraft/config/brandon3055/*.cfg
 minecraft/config/brandon3055/*.txt

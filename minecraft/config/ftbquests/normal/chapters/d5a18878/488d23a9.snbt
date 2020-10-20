@@ -1,0 +1,30 @@
+{
+	title: "I've got rocks in my head",
+	icon: "tp:cobblegen_block",
+	x: -0.75d,
+	y: -0.25d,
+	text: [
+		"I dreaming of cobblestone, like the ones I used to know. Where the... oh I forget. ",
+		"",
+		"I've got an id, let's play with lava and water and make some cobble... maybe we will get cooked right nice... or we could make one of then fandangled Cobblestone Generators."
+	],
+	dependencies: [
+		"cf6e8e97"
+	],
+	tasks: [{
+		uid: "d6ae7165",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "8df7b022",
+		type: "item",
+		item: {
+			id: "thaumcraft:loot_bag",
+			Count: 1,
+			Damage: 0
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Obsidian is the key",
+	icon: "minecraft:obsidian",
+	x: 2.25d,
+	y: -1.75d,
+	text: [
+		"Let's make a portal to the Nether. What awaits you there? Certain death? Maybe. Well, what are we waiting for?  To make a nether portal you need at least 10 blocks of obsidian, though 14 looks better. The outside corners can be open. Once made, light it up with a flint & steel."
+	],
+	dependencies: [
+		"ea72407c"
+	],
+	tasks: [{
+		uid: "e79d54a2",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "1a3e4298",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Major Boom!",
+	icon: "enderio:block_enhanced_combustion_generator",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"Let's enhance the Combustion Generator to generate even more power. Included in your reward is a Stellar Capacitor, which is the top level capacitor for machine output and efficiency."
+	],
+	dependencies: [
+		"b34c5e5d"
+	],
+	tasks: [{
+		uid: "b8f47d11",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_combustion_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "f86722f6",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "empoweredoil",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "412d4a4c",
+		type: "item",
+		item: "enderio:item_capacitor_stellar"
+	}]
+}

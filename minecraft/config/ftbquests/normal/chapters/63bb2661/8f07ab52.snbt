@@ -1,0 +1,32 @@
+{
+	title: "Ore duplication on the Minecolonies way!",
+	icon: "minecolonies:blockhutsmeltery",
+	x: -2.25d,
+	y: 10.25d,
+	text: [
+		"The Smeltery aka Smelter will smelt ores into Ingots and duplicate them with a certain probability. On Hut lvl 3 he starts to triple Ingots with a small probability.",
+		"(Please note that he only starts to duplicate them at Hut lvl 2!)"
+	],
+	dependencies: [
+		"ea321dd8"
+	],
+	tasks: [{
+		uid: "a3da2dc1",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutsmeltery"
+		}]
+	}],
+	rewards: [{
+		uid: "ee052fc9",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 8
+	},
+	{
+		uid: "7f457264",
+		type: "item",
+		item: "minecraft:gold_ore",
+		count: 4
+	}]
+}

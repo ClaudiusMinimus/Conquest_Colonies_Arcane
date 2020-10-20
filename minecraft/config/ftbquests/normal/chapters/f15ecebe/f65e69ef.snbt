@@ -1,0 +1,26 @@
+{
+	title: "I still need MORE Room!",
+	icon: "actuallyadditions:block_giant_chest_medium",
+	x: -1.25d,
+	y: -0.5d,
+	text: [
+		"How much stuff do you have? I guess you had better make a Medium Storage Crate, though you will need to craft an Actually Additions Atomic Reconstructor before you can complete this.  If you have not started the Actually Additions quest, then this might be a good time.",
+		"",
+		"Once completed, we will give you in return for your accomplishment a Medium Storage Crate Upgrade. Just shift right click on your small storage crate and bingo! You now have a medium crate."
+	],
+	dependencies: [
+		"aff9543f"
+	],
+	tasks: [{
+		uid: "e54f42dd",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_medium"
+		}]
+	}],
+	rewards: [{
+		uid: "fba29221",
+		type: "item",
+		item: "actuallyadditions:item_small_to_medium_crate_upgrade"
+	}]
+}

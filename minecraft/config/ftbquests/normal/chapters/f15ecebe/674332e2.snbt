@@ -1,0 +1,28 @@
+{
+	title: "Ender Fluid Conduit",
+	icon: "enderio:item_liquid_conduit 1 2",
+	x: -4.25d,
+	y: 7.0d,
+	text: [
+		"Ender Fluid Conduit is the top tier fluid conduit and can transfer fluids nearly instantaneously. You can also transfer multiple fluids on the line."
+	],
+	dependencies: [
+		"d59a948c"
+	],
+	tasks: [{
+		uid: "68efbd82",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 16 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "12218307",
+		type: "item",
+		item: {
+			id: "cyclicmagic:charm_water",
+			tag: {}
+		}
+	}]
+}

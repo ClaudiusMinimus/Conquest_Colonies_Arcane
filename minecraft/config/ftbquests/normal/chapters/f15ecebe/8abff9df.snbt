@@ -1,0 +1,24 @@
+{
+	title: "I Yet NEED MORE Room!",
+	icon: "actuallyadditions:block_giant_chest_large",
+	x: 0.25d,
+	y: -0.5d,
+	text: [
+		"What! You have filled your medium crate already? You are going to need to craft an Actually Additions Empowerer system in order to craft your Large Storage Crate."
+	],
+	dependencies: [
+		"f65e69ef"
+	],
+	tasks: [{
+		uid: "78ba77db",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "a427bdcf",
+		type: "item",
+		item: "actuallyadditions:item_medium_to_large_crate_upgrade"
+	}]
+}

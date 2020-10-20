@@ -1,0 +1,40 @@
+{
+	title: "Keep em shiny and sharp",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "iron"
+		}
+	},
+	x: 4.75d,
+	y: 0.75d,
+	text: [
+		"You may have wondered about those Sharpening Kits. Well, they have two purposes:",
+		"",
+		"1. To repair tools made whose main components are made from the same material.",
+		"2. To upgrade a tool to the mining level of the sharpening kit.",
+		"",
+		"To repair a tool, place the broken or worn down tool with a sharpening kit in any crafting grid then pull out your repaired tool from the output window.",
+		"",
+		"To upgrade a tool, place the tool on the Tool Station with the new Sharpening Kit and a piece of flint. Yep, I gave you that flint for a reason. Now put your stone pickaxe, Iron Sharpening Kit and a piece of flint to see your tool jump from iron to diamond mining level.",
+		"",
+		"Refer to the book, Materials & Me for more information reading upgrades."
+	],
+	dependencies: [
+		"f9feb7b3"
+	],
+	tasks: [{
+		uid: "296d3d67",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "bc6af90d",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "a9180844",
+		type: "item",
+		item: "cyclicmagic:heart_food"
+	}]
+}

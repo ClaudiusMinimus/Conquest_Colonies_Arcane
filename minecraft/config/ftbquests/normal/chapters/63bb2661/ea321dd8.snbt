@@ -1,0 +1,54 @@
+{
+	title: "The Diamond Digger",
+	icon: "minecolonies:blockhutminer",
+	x: -4.25d,
+	y: 9.25d,
+	text: [
+		"The Miner is used to gather Ores and Stone for your Colony. He will dig down to a choosen level (if no set he will dig to bedrock) and start making mineshafts. For digging down he will need: Cobblestone, ladders, fences, oak halfslabs and torches. For making mineshafts he needs: Oak planks, fences and torches. The max tool lvl he can use will increase on upgrading his Hut.",
+		"LvL 1 - Stone Tool lvl",
+		"LvL 2 - Iron Tool lvl",
+		"LvL 3 - Diamond Tool lvl",
+		"LvL 4 - Obsidian Tool lvl",
+		"LvL 5 - any Tool lvl"
+	],
+	dependencies: [
+		"897ac436"
+	],
+	tasks: [{
+		uid: "26455f3b",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutminer"
+		}]
+	}],
+	rewards: [{
+		uid: "2dfafb2e",
+		type: "item",
+		item: "minecraft:wooden_slab",
+		count: 32
+	},
+	{
+		uid: "19b67c50",
+		type: "item",
+		item: "minecraft:fence",
+		count: 32
+	},
+	{
+		uid: "269b1435",
+		type: "item",
+		item: "minecraft:ladder",
+		count: 20
+	},
+	{
+		uid: "2fd5ed8c",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 20
+	},
+	{
+		uid: "f92284d0",
+		type: "item",
+		item: "minecraft:torch",
+		count: 32
+	}]
+}

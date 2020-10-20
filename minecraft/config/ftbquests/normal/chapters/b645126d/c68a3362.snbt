@@ -1,0 +1,69 @@
+{
+	title: "Wish I had a kitchen",
+	icon: "cookingforblockheads:oven",
+	x: 0.5d,
+	y: 1.25d,
+	text: [
+		"You've watched all the old cooking shows and darn it, you want to start cookin. (I know I ain't a good spller.) Tell you what, if you make a few cabinets and appliances, I'll give you the rest of a basic kitchen. Sound fair?"
+	],
+	dependencies: [
+		"3d3068b9"
+	],
+	tasks: [{
+		uid: "1d6161b6",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "bf175582",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "72d1218e",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "72d33d43",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "e6ea2d78",
+		type: "item",
+		item: "cookingforblockheads:heating_unit"
+	},
+	{
+		uid: "328028a7",
+		type: "item",
+		item: "cookingforblockheads:ice_unit"
+	},
+	{
+		uid: "ccabc9b7",
+		type: "item",
+		item: "cookingforblockheads:kitchen_floor",
+		count: 18
+	},
+	{
+		uid: "a89cfb78",
+		type: "item",
+		item: "cookingforblockheads:cabinet",
+		count: 3
+	},
+	{
+		uid: "661e4ac9",
+		type: "item",
+		item: "cookingforblockheads:cooking_table"
+	}]
+}

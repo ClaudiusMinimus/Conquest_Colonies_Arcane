@@ -1,0 +1,51 @@
+{
+	title: "Starting your Colony",
+	icon: "minecolonies:supplycampdeployer",
+	x: -7.25d,
+	y: 1.0d,
+	text: [
+		"A Colony needs a lot of resources to start. Get some wood, stone and wool to begin your journey."
+	],
+	tasks: [{
+		uid: "43a4eaac",
+		type: "item",
+		items: [{
+			item: "minecraft:log 20"
+		}],
+		count: 20L
+	},
+	{
+		uid: "495f1f93",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone 32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "b89abc6f",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "2bb8407b",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b468eb53",
+		type: "choice",
+		table: 1
+	},
+	{
+		uid: "82d6a4d8",
+		type: "xp",
+		xp: 3
+	}]
+}

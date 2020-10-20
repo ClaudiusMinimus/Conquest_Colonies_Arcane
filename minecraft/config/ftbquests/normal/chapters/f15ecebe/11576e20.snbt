@@ -1,0 +1,29 @@
+{
+	title: "All Bound Up",
+	icon: "enderio:item_material 1 4",
+	x: 0.25d,
+	y: 7.0d,
+	text: [
+		"Conduit Binding is used with all EnderIO conduits and conduit facades, so you will likely need lots of this easy to make item.",
+		"§§§4§l>>>>IMPORTANT<<<<§r",
+		"A group of up to four Ender IO conduits can share a single node. This means that if you had a machine that needed power, fluid, and items transfer in and out that all of the conduits could--if the machine supports it--all be connected to the backside of the machine if you so decided."
+	],
+	tasks: [{
+		uid: "859da2d0",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 64 4"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d0c69335",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_chest"
+			}
+		}
+	}]
+}

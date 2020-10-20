@@ -1,0 +1,26 @@
+{
+	title: "I need MORE Room!",
+	icon: "actuallyadditions:block_giant_chest",
+	x: -2.75d,
+	y: -0.5d,
+	text: [
+		"Have you outgrown your basic chest? Is there no more room for your inventory? Well this is Small Storage Crate is very easy to make and will store a LOT more of your precious §mjunk§r inventory.",
+		"",
+		"After you make your Small Storage Crate and claim your reward and take the Chest to Storage Crate Upgrade. To use, shift-right-click the upgrade on your overflowing chest."
+	],
+	dependencies: [
+		"872f97ff"
+	],
+	tasks: [{
+		uid: "2a8d405f",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "7b6a33f3",
+		type: "item",
+		item: "actuallyadditions:item_chest_to_crate_upgrade"
+	}]
+}
