@@ -1,0 +1,26 @@
+
+    conquest:tundra
+    conquest:tundra_marsh
+    conquest:mountain
+    conquest:boreal_forest
+    conquest:mega_boreal_forest
+    conquest:birch_forest
+    conquest:forest_flower_plain
+    conquest:marsh
+    conquest:moorland
+    conquest:lorien_forest
+    conquest:alder_swamp
+    conquest:bog
+    conquest:bamboo_forest
+    conquest:deciduous_forest
+    conquest:japanese_forest
+    conquest:mediterranean
+    conquest:old_growth_forest
+    conquest:desert
+    conquest:red_desert
+    conquest:jungle
+    conquest:mesa_extreme
+    conquest:beach
+    conquest:cold_beach
+    conquest:river
+    conquest:ocean	
