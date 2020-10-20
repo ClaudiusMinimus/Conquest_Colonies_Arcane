@@ -78,7 +78,10 @@
 				"minecraft:desert",
 				"minecraft:mutated_desert",
 				"minecraft:desert_hills",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:desert",
+				"conquest:red_desert",
+				"conquest:mesa_extreme"
 			],
 			"isWhitelist": true
 		},
@@ -145,7 +148,14 @@
 				"minecraft:mutated_extreme_hills_with_trees",
 				"minecraft:extreme_hills",
 				"minecraft:smaller_extreme_hills",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:mountain",
+				"conquest:boreal_forest",
+				"conquest:mega_boreal_forest",
+				"conquest:birch_forest",
+				"conquest:old_growth_forest",
+				"conquest:deciduous_forest"
+
 			],
 			"isWhitelist": true
 		},
@@ -191,7 +201,13 @@
 				"minecraft:mutated_swampland",
 				"minecraft:mushroom_island",
 				"minecraft:mushroom_island_shore",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:alder_swamp",
+				"conquest:bog",
+				"conquest:marsh",
+				"conquest:moorland",
+				"conquest:tundra_marsh",
+				"conquest:mediterranean"
 			],
 			"isWhitelist": true
 		},
@@ -240,7 +256,11 @@
 				"minecraft:ocean",
 				"minecraft:frozen_ocean",
 				"minecraft:deep_ocean",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:beach",
+				"conquest:cold_beach",
+				"conquest:river",
+				"conquest:ocean"
 			],
 			"isWhitelist": true
 		},
@@ -266,7 +286,8 @@
 			"density": 1.0,
 			"biomes": [
 				"minecraft:river",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:river"
 			],
 			"isWhitelist": true
 		},
@@ -293,8 +314,14 @@
 				"minecraft:plains",
 				"minecraft:ice_flats",
 				"minecraft:mutated_ice_flats",
+				"aroma1997sdimension:miningBiome",
 				"conquest:forest_flower_plain",
-				"aroma1997sdimension:miningBiome"
+				"conquest:boreal_forest",
+				"conquest:mega_boreal_forest",
+				"conquest:birch_forest",
+				"conquest:old_growth_forest",
+				"conquest:deciduous_forest"
+
 			],
 			"isWhitelist": true
 		},
@@ -327,7 +354,15 @@
 				"minecraft:savanna_rock",
 				"minecraft:mutated_savanna",
 				"minecraft:mutated_savanna_rock",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:jungle",
+				"conquest:japanese_forest",
+				"conquest:bamboo_forest",
+				"conquest:boreal_forest",
+				"conquest:mega_boreal_forest",
+				"conquest:birch_forest",
+				"conquest:old_growth_forest",
+				"conquest:deciduous_forest"
 			],
 			"isWhitelist": true
 		},
@@ -356,7 +391,15 @@
 				"minecraft:mutated_extreme_hills_with_trees",
 				"minecraft:extreme_hills",
 				"minecraft:smaller_extreme_hills",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:lorien_forest",
+				"conquest:tundra",
+				"conquest:mountain",
+				"conquest:boreal_forest",
+				"conquest:mega_boreal_forest",
+				"conquest:birch_forest",
+				"conquest:old_growth_forest",
+				"conquest:deciduous_forest"
 			],
 			"isWhitelist": true
 		},
@@ -387,7 +430,15 @@
 				"minecraft:mutated_extreme_hills_with_trees",
 				"minecraft:extreme_hills",
 				"minecraft:smaller_extreme_hills",
-				"aroma1997sdimension:miningBiome"
+				"aroma1997sdimension:miningBiome",
+				"conquest:lorien_forest",
+				"conquest:tundra",
+				"conquest:mountain",
+				"conquest:boreal_forest",
+				"conquest:mega_boreal_forest",
+				"conquest:birch_forest",
+				"conquest:old_growth_forest",
+				"conquest:deciduous_forest"
 			],
 			"isWhitelist": true
 		},
