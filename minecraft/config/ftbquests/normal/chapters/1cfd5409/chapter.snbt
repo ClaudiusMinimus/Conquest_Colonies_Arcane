@@ -4,7 +4,7 @@
 	description: [
 		"Once you have gathered some some ores and resources, you will need to process them. Soon, you will be doubling your ores and automating production."
 	],
-	always_invisible: false,
+	always_invisible: true,
 	group: 0,
 	default_quest_shape: ""
 }

@@ -6,7 +6,7 @@
 			Material: "obsidian"
 		}
 	},
-	x: -2.75d,
+	x: -1.25d,
 	y: 2.5d,
 	text: [
 		"Soon we will be going to the Nether and we need really good tools to mine some very rare metals. Your task is to make an Obsidian Sharpening Kit and upgrade your pickaxe to Cobalt level mining.",

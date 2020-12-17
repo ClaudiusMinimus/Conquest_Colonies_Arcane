@@ -13,7 +13,7 @@
 			}
 		}
 	},
-	x: 0.25d,
+	x: 1.75d,
 	y: 2.5d,
 	text: [
 		"In order to craft more powerful TC tools and weapons, you will need a Tool Forge. You should have enough Seared Stone Bricks, but you will need your Tool Station and four blocks of iron."
@@ -21,6 +21,7 @@
 	dependencies: [
 		"ea240add"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "c2a0cb5b",
 		type: "item",
@@ -36,7 +37,8 @@
 					Damage: 0s
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "312be5bb",

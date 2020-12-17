@@ -21,9 +21,11 @@
 		uid: "dbbd1779",
 		type: "item",
 		item: {
-			id: "thaumcraft:loot_bag",
-			Count: 1,
-			Damage: 0
+			id: "bq_standard:loot_chest",
+			tag: {
+				hideLootInfo: 1b
+			},
+			Damage: 25s
 		}
 	}]
 }

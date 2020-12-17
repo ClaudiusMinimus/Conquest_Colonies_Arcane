@@ -1,7 +1,7 @@
 {
 	title: "Bejeweled",
 	icon: "minecraft:diamond",
-	x: 4.75d,
+	x: -3.0d,
 	y: 2.5d,
 	text: [
 		"Let's add some bling to your tools. Place your pickaxe in the Tool Station and then add a Diamond and 50 pieces of Redstone to give your pick a major boost in performance and durability. Before upgrading you should have 3 modifiers available for the pickaxe (look at stats in Tool Station). After upgrading you will still have 1 remaining modifier. We want to work towards gaining more modifiers and ultimately making your tool unbreakable. ",
@@ -11,7 +11,7 @@
 		"BTW: Five Reinforced modifiers will make your tool unbreakable. Sweet!"
 	],
 	dependencies: [
-		"76a07025"
+		"534506cc"
 	],
 	tasks: [{
 		uid: "a626b88a",

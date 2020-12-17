@@ -1,7 +1,7 @@
 {
 	title: "Oh my, I'm smelting",
 	icon: "tconstruct:smeltery_controller",
-	x: 1.75d,
+	x: 3.25d,
 	y: 2.5d,
 	text: [
 		"A basic Smeltery must be at least 2x2 on the inside to hold the ores. The book, Materials and You state it must be 3x3, but that has changed. A Smeltery can be as large as 11x11, but 2x2 will suffice for starting out. Open Materials and You to the Smeltery section for more information and illustrations. You will know you have built it correctly when the Smeltery Controller panel lights up."
