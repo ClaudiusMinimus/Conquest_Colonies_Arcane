@@ -2,6 +2,7 @@
 natives/*
 minecraft/config/*
 minecraft/coremods/*
+minecraft/crash-reports/*
 minecraft/journeymap/*
 minecraft/llibrary/*
 minecraft/local/*
@@ -16,6 +17,7 @@ minecraft/texturepacks/*
 
 # ignore files
 Conquest_Industrial_Arcane.code-workspace
+.packignore
 instance.cfg
 minecraft/.ReAuth.cfg
 minecraft/BotaniaVars.dat
@@ -41,4 +43,3 @@ minecraft/config/brandon3055/ProjectIntelligence/*
 !minecraft/config/bonsaitrees
 !minecraft/config/geolosys.json
 !minecraft/config/quark.cfg
-minecraft/crash-reports/crash-2020-11-23_18.28.24-server.txt
