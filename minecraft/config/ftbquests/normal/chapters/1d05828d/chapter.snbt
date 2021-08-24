@@ -1,0 +1,11 @@
+{
+	title: "Early/Mid Game Inventor Storage",
+	description: [
+		"Ways to start organizing and storaging your inventory.",
+		"",
+		"Lots more to come!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,26 @@
+{
+	title: "I'm Stuffed!",
+	icon: "storagedrawers:upgrade_status",
+	x: 0.25d,
+	y: 1.0d,
+	text: [
+		"When your drawers are full, this will light up. Pretty!"
+	],
+	dependencies: [
+		"c8298097"
+	],
+	tasks: [{
+		uid: "4c52d431",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_status 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ba2da0f4",
+		type: "item",
+		item: "storagedrawers:upgrade_status 1 1",
+		count: 8
+	}]
+}

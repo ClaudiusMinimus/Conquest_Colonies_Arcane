@@ -1,0 +1,26 @@
+{
+	title: "Cobble Cobble",
+	icon: "tp:iron_cobblegen_block",
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"This ain't no chicken dance. This is serious - we need cobble, lots o'cobble. If I tweak my cobble generator by sprinkling some chicken feed - hey what's with the chickens!",
+		"",
+		"Upgrade the Cobblestone Generator to Tier 2"
+	],
+	dependencies: [
+		"d61499ca"
+	],
+	tasks: [{
+		uid: "e063ed4c",
+		type: "item",
+		items: [{
+			item: "tp:iron_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "d6903f71",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

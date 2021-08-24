@@ -1,0 +1,36 @@
+{
+	title: "Filled my Drawers 2x2",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 2s
+	},
+	x: -4.25d,
+	y: 2.5d,
+	text: [
+		"My drawers runith over with cobble and lots and lots of junk. Some snappy 2x2 drawer aught to help."
+	],
+	dependencies: [
+		"301e46f3"
+	],
+	tasks: [{
+		uid: "0496fe2a",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			Count: 8b,
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "70541655",
+		type: "item",
+		item: "storagedrawers:tape"
+	}]
+}

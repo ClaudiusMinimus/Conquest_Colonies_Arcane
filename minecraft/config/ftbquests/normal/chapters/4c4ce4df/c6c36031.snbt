@@ -1,0 +1,94 @@
+{
+	title: "Obsidianiated - is that even a word?",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "obsidian"
+		}
+	},
+	x: -1.5d,
+	y: 2.5d,
+	text: [
+		"Soon we will be going to the Nether and we need really good tools to mine some very rare metals. Your task is to make an Obsidian Sharpening Kit and upgrade your pickaxe to Cobalt level mining.",
+		"",
+		"Obsidian can either be placed in the Smeltery like any other ore or you can pour in a bucket of lava and a bucket of water into the Drain by right-clicking on it. The result is the Smeltery will make obsidian."
+	],
+	dependencies: [
+		"753af5d7"
+	],
+	tasks: [{
+		uid: "dfbf84f3",
+		type: "item",
+		items: [{
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "obsidian"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "96a0dac7",
+		type: "item",
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					Durability: 870,
+					HarvestLevel: 4,
+					Attack: 9.72f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					Durability: 870,
+					HarvestLevel: 4,
+					Attack: 9.72f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"manyullyn",
+						"manyullyn"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"insatiable",
+					"coldblooded",
+					"toolleveling"
+				]
+			}
+		}
+	}]
+}

@@ -1,0 +1,9 @@
+{
+	title: "Armor, Tools & Weapons",
+	description: [
+		"Hey Tinker, Tinkers Construct (\"TC\") is a great early and mid game mod. Did you know your basic wooden pickaxe can be upgraded to a powerful and unbreakable speed demon."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

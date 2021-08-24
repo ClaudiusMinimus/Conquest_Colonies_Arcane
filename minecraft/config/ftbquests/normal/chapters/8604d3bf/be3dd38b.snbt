@@ -1,0 +1,52 @@
+{
+	title: "Hidden Treasure!",
+	icon: "exnihilocreatio:item_ore_iron",
+	x: -2.0d,
+	y: 4.5d,
+	text: [
+		"Hey Homer, help me set up my fancy new high-tech sieves with my string mesh and let's see if anything is hidden in these stacks of gravel.",
+		"",
+		"Setup your sieves in a 2x2 grid with the string meshes. With your stack(s) of gravel and right-click on one of the sieves; all of them work as one. You can add more sieves, just be sure all the meshes are exactly the same if you want them to work as one.",
+		"",
+		"Rumor has it that I can put 25 sieves in a 5x5 grid and they will still work as one. Now I like that!"
+	],
+	dependencies: [
+		"57fe82f9"
+	],
+	tasks: [{
+		uid: "428a0945",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_iron 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "a21ff8a3",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "aa5a711b",
+		type: "item",
+		items: [{
+			item: "minecraft:flint 24"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "93eaa21e",
+		type: "item",
+		item: "exnihilocreatio:item_ore_iron",
+		count: 16
+	},
+	{
+		uid: "05d7da36",
+		type: "item",
+		item: "exnihilocreatio:item_ore_gold",
+		count: 8
+	}]
+}

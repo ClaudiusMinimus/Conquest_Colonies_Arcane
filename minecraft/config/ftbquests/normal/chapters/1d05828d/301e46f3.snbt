@@ -1,0 +1,23 @@
+{
+	title: "I can't carry all of this",
+	icon: "minecraft:chest",
+	x: -4.25d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"No Description"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "dc58f177",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "c2009621",
+		type: "item",
+		item: "backpacks16840:backpack 1 3"
+	}]
+}

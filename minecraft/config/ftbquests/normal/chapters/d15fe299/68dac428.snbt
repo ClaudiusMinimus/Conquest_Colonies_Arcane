@@ -1,0 +1,33 @@
+{
+	title: "Just Enough Items (\"JEI\")",
+	icon: "minecraft:writable_book",
+	x: -2.5d,
+	y: 1.25d,
+	text: [
+		"JEI is a powerful way to search for available items, their uses, and how to craft them. JEI is accessed via your inventory,  which uses the \"e\" key by default or by right-clicking on most crafting grids.",
+		"",
+		"On the far right you will see a list of all items available in this modpack. At the bottom, you will see a search field that you can type in name of the item you are searching for. ",
+		"",
+		"Click on the item in the list of available items and it will appear in a pseudo crafting grid. Items shown using a 2x2 grid can be crafted in either a 2x2 or 3x3 grid. Note: some mods use a custom grid that may be larger than 3x3.",
+		"",
+		"If the item to craft fits on your open crafting grid, then a gray button with a plus \"+\" will allow you to automatically put the required materials in to the grid - provided you have the materials in your open inventory. If you press the \"Shift\" key while pressing the \"+\" button, then the crafting grid will be filled to capacity.",
+		"",
+		"While there are many more features of JEI, these last tips will show you multiple ways to craft many items and what they can be used for:",
+		"",
+		"1. To find alternate recipes for an item, you can click on the tabs at the top of the pseudo crafting grid or click on the arrows (if present) to the left or right of the pseudo crafting grid.",
+		"",
+		"2. To find the use(s) for an item, right click on the item in JEI or the crafting grid output. You may also press the \"u\" key while hovering your mouse over an item."
+	],
+	dependencies: [
+		"e30ee99d"
+	],
+	tasks: [{
+		uid: "26fd62d0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1c80a404",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

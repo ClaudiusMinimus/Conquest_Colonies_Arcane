@@ -1,0 +1,21 @@
+{
+	title: "Get Your Rocks! Ore Excavation",
+	icon: "minecraft:diamond_pickaxe",
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"Not able to mine fast enough? Have we got a deal for you! For an unlimited time, you can at absolutely no cost--except hunger or breaking your tool--you can shapelessly mine up to 64-blocks of the same type, a long 1x1 tunnel, a mining tunnel, an escape tunnel, or a 3x3x1 small box by simply pressing a button. To use vein mine excavation, press the ( ` ) grave/back-tick key while mining. To change the mining pattern, press and hold the back-tick key, and press and hold the sneak key, then scroll your mouse wheel."
+	],
+	dependencies: [
+		"e30ee99d"
+	],
+	tasks: [{
+		uid: "6e74708a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4cf909f6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Treasure from Hades",
+	icon: "minecraft:quartz",
+	x: 2.5d,
+	y: 3.0d,
+	text: [
+		"It is simply amazing, I keep trying different materials in my sieve and some things are great, others are surprising, and others... well are totaly unexpected. See what you can find."
+	],
+	dependencies: [
+		"b13a15f9"
+	],
+	tasks: [{
+		uid: "2248a479",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz 64"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "c9643b3f",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 64
+	},
+	{
+		uid: "0716cc23",
+		type: "item",
+		item: "exnihilocreatio:block_endstone_crushed"
+	}]
+}

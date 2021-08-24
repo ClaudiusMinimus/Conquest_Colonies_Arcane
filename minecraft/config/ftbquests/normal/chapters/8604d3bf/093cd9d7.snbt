@@ -1,0 +1,19 @@
+{
+	title: "Cobble III",
+	icon: "tp:diamond_cobblegen_block",
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"It's the eye of the Cobble, it's the dream... What! More cobble! Oh well, sprinkle some fairy dust and ...  probably will do nothing but cause allergies. Maybe a Tier 3 Cobblestone Generator might fill your appetite for cobble."
+	],
+	dependencies: [
+		"a8d27af3"
+	],
+	tasks: [{
+		uid: "8c099e4d",
+		type: "item",
+		items: [{
+			item: "tp:diamond_cobblegen_block"
+		}]
+	}]
+}

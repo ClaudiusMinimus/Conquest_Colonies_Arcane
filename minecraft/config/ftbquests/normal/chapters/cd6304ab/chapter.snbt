@@ -1,0 +1,9 @@
+{
+	title: "Basic to Fabulous Cooking",
+	description: [
+		"Are you getting low on your McPams? Here you will learn to bake bread and later how to make a Thanksgiving Feast!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

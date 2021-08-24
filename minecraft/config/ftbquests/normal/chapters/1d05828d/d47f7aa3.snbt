@@ -1,0 +1,20 @@
+{
+	title: "I Believe!!!",
+	icon: "storagedrawers:upgrade_conversion",
+	x: -1.25d,
+	y: 1.0d,
+	text: [
+		"Your incompatible ores can be saved with this faith alterting upgrade that will convert your ores (using the same oredict id) to a unifying state of harmony."
+	],
+	dependencies: [
+		"c8298097"
+	],
+	tasks: [{
+		uid: "489970b3",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_conversion 8"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Bejeweled",
+	icon: "minecraft:diamond",
+	x: -3.0d,
+	y: 2.5d,
+	text: [
+		"Let's add some bling to your tools. Place your pickaxe in the Tool Station and then add a Diamond and 50 pieces of Redstone to give your pick a major boost in performance and durability. Before upgrading you should have 3 modifiers available for the pickaxe (look at stats in Tool Station). After upgrading you will still have 1 remaining modifier. We want to work towards gaining more modifiers and ultimately making your tool unbreakable. ",
+		"",
+		"As you use your tools, you will notice they gain experience and level up, much as you do. As your tool levels up it will gain additional modifiers. You can also gain modifiers by swapping out tool parts for Writable parts made of paper. The binding on the pickaxe is a good part to swap out as it will gain you a modifier and not adversely affect the durability. The last part of this task is to craft a Reinforced modifier and a Paper Binding.",
+		"",
+		"BTW: Five Reinforced modifiers will make your tool unbreakable. Sweet!"
+	],
+	dependencies: [
+		"c6c36031"
+	],
+	tasks: [{
+		uid: "aa4b332a",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 14"
+		}]
+	},
+	{
+		uid: "650081f7",
+		type: "item",
+		items: [{
+			id: "tconstruct:binding",
+			tag: {
+				Material: "paper"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "72505053",
+		type: "item",
+		item: "tconstruct:materials 1 14"
+	}]
+}

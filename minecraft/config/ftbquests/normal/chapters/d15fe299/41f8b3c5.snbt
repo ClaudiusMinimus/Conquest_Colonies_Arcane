@@ -1,0 +1,38 @@
+{
+	title: "How many times have I told you to make your bed!",
+	icon: "minecraft:bed",
+	x: 0.5d,
+	y: 2.75d,
+	text: [
+		"Craft a bed. Simple right? What if there are no sheep to kill or shear for wool? Use JEI and see if you can find a way to get wool without sheep - that is if you feel up to the challenge.",
+		"",
+		"Now be sure to right click on the bed to set your new spawn point §mif you die§r--sorry--WHEN you die. Also, right-clicking at night will make it a bright sunny morning. Unless you are on a server with a bunch of other miners, then you need to get a few others to sleep too otherwise your night will be long and scary..."
+	],
+	dependencies: [
+		"b684a0e8"
+	],
+	tasks: [{
+		uid: "725774b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bed"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73b21a73",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

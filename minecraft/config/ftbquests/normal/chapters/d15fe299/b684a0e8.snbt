@@ -1,0 +1,28 @@
+{
+	title: "Ain't none with a kraftin table?",
+	icon: "minecraft:crafting_table",
+	x: 2.0d,
+	y: 1.25d,
+	text: [
+		"In order to do most anything, you will need a crafting grid. Take one log and place it in your 2x2 crafting grid (press \"e\" to open inventory), which is at the top right corner of your inventory. Then press \"Shift\" + Click on the wood planks in the output window to craft them and move them to your inventory.",
+		"",
+		"Then take the four wood planks you just crafted and place them one in each cell of the 2x2 grid. The grid will be full at this point. The crafting table will be in the output window, which you can click and drag down to your inventory. §6IMPORTANT§r Leave the crafting table in your inventory until you claim your reward. This rule applies to all gathering and crafting quests."
+	],
+	dependencies: [
+		"158ec73c"
+	],
+	tasks: [{
+		uid: "686b2e5d",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a3c7670",
+		type: "item",
+		item: "minecraft:sapling",
+		count: 4
+	}]
+}

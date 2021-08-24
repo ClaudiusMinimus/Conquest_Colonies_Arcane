@@ -1,0 +1,30 @@
+{
+	title: "Hi, I'm Flint",
+	icon: "exnihilocreatio:item_mesh 1 2",
+	x: -2.0d,
+	y: 3.0d,
+	text: [
+		"This sieve works great and all, but I just wonder if there might a way to improve it? Hmm... Oh, what if I reinforce it to make it stiffer? I could add some flint and see what happens.",
+		"",
+		"Craft 4 Flint Meshes",
+		"",
+		"TIP: Like many items, flint has multiple ways of obtaining. Check out JEI to see if there are other ways to get flint."
+	],
+	dependencies: [
+		"4a453b40"
+	],
+	tasks: [{
+		uid: "38d85d7d",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 4 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "dc5b1acc",
+		type: "item",
+		item: "exnihilocreatio:item_mesh 1 2",
+		count: 4
+	}]
+}

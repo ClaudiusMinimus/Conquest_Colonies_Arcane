@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	dependencies: [
+		"68a160ce"
+	],
+	tasks: [{
+		uid: "8f8a75c1",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_hammer"
+		}]
+	}],
+	rewards: [{
+		uid: "decc312f",
+		type: "item",
+		item: "exnihilocreatio:hammer_diamond"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Kangaroo pouch",
+	icon: "backpacks16840:backpack_pouch",
+	x: -4.25d,
+	y: -0.5d,
+	text: [
+		"Backpacks is a hidden gem with many features built in. First lets have you make two pouches to expand the capacity of your backpack.",
+		"",
+		"For more amazing features, take a look at: §1§9§3§9",
+		"https://tinyurl.com/backpack3-0§r"
+	],
+	dependencies: [
+		"301e46f3"
+	],
+	tasks: [{
+		uid: "206eb247",
+		type: "item",
+		items: [{
+			item: "backpacks16840:backpack_pouch 2"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0575e89",
+		type: "item",
+		item: "backpacks16840:backpack_restorer"
+	}]
+}

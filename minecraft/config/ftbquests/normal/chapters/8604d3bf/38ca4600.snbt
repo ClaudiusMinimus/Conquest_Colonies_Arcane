@@ -1,0 +1,48 @@
+{
+	title: "Magical Treasure!",
+	icon: "minecraft:blaze_powder",
+	x: 1.0d,
+	y: 4.5d,
+	text: [
+		"Magic is found in dust, or so they say. Take your dust and see what you can find."
+	],
+	dependencies: [
+		"867a1cbe"
+	],
+	tasks: [{
+		uid: "d64e6fdf",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone 32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "82877ef3",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "0b4b56c8",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder 6"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "c01521d9",
+		type: "item",
+		item: "exnihilocreatio:block_netherrack_crushed",
+		count: 64
+	},
+	{
+		uid: "fe5b6d5f",
+		type: "item",
+		item: "minecraft:soul_sand",
+		count: 64
+	}]
+}

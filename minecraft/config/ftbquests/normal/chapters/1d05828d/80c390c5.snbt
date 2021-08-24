@@ -1,0 +1,19 @@
+{
+	title: "Yes, Abominable Master",
+	icon: "storagedrawers:controller",
+	x: -1.25d,
+	y: 4.0d,
+	text: [
+		"A Drawer Controller Slave provides another access point for your drawers. The slave or controller can also be hooked up to a ME System, which will be covered later."
+	],
+	dependencies: [
+		"c8298097"
+	],
+	tasks: [{
+		uid: "681ef7af",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controllerslave"
+		}]
+	}]
+}

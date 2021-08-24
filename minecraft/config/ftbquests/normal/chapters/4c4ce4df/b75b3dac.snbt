@@ -1,0 +1,135 @@
+{
+	title: "Sparky",
+	icon: {
+		id: "conarm:chestplate",
+		tag: {
+			StatsOriginal: {
+				Toughness: 1.0f,
+				FreeModifiers: 3,
+				Durability: 41,
+				Defense: 4.5f
+			},
+			Stats: {
+				Toughness: 1.0f,
+				FreeModifiers: 3,
+				Durability: 41,
+				Defense: 4.5f
+			},
+			TinkerData: {
+				Materials: [
+					"flint",
+					"flint",
+					"flint"
+				],
+				Modifiers: [
+					"leveling_armor"
+				]
+			},
+			Modifiers: [{
+				identifier: "mundane_armor",
+				color: -9868951,
+				level: 3,
+				mundane2_armor: 1b,
+				mundane1_armor: 1b
+			},
+			{
+				identifier: "leveling_armor",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"mundane2_armor",
+				"mundane1_armor",
+				"leveling_armor"
+			]
+		}
+	},
+	x: -3.0d,
+	y: 4.0d,
+	text: [
+		"You are going to make some pitifully mundane /wood and then slowly upgrade it to a magnificent enchanted work of art. Assemble your new armor on the Armor Station. ",
+		"Please note: You cannot upgrade your armor until you have an Armor Forge."
+	],
+	dependencies: [
+		"dc575997"
+	],
+	tasks: [{
+		uid: "5dfda5ae",
+		type: "item",
+		items: [{
+			id: "conarm:helmet_core",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "e2678713",
+		type: "item",
+		items: [{
+			id: "conarm:chest_core",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "f466c317",
+		type: "item",
+		items: [{
+			id: "conarm:leggings_core",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "e6790dcd",
+		type: "item",
+		items: [{
+			id: "conarm:boots_core",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "904e3455",
+		type: "item",
+		items: [{
+			id: "conarm:armor_plate",
+			Count: 4b,
+			tag: {
+				Material: "flint"
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "20a25931",
+		type: "item",
+		items: [{
+			id: "conarm:armor_trim",
+			tag: {
+				Material: "wood"
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "e9b7c34b",
+		type: "item",
+		items: [{
+			id: "conarm:polishing_kit",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9bcbc08f",
+		type: "item",
+		item: "cyclicmagic:heart_food",
+		count: 2
+	}]
+}

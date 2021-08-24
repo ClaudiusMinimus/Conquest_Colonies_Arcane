@@ -1,0 +1,24 @@
+{
+	title: "Cobble IV",
+	icon: "tp:blaze_cobblegen_block",
+	x: 2.5d,
+	y: -1.5d,
+	text: [
+		"In the cobble's code there's no surrender... get a life... no more cobble song themes! now make a Cobblestone Generator Tier 4"
+	],
+	dependencies: [
+		"093cd9d7"
+	],
+	tasks: [{
+		uid: "d95fffd7",
+		type: "item",
+		items: [{
+			item: "tp:blaze_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "41d24307",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

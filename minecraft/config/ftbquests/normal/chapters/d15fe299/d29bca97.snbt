@@ -1,0 +1,29 @@
+{
+	title: "It's the Wiz",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s,
+				id: 0s
+			}]
+		}
+	},
+	x: -4.0d,
+	y: 3.0d,
+	text: [
+		"With so many mods it can be hard to remember all the keys. Keywizard is your hero, for it can help you change most any keybinding to simplify your game or remove keyboard conflics. Use the  Ctrl + F7 keys to open keywizard. You may need to change the screen resolution. To change resolution, Press Esc key > Options... > Video Settings... > Gui Scale. I find on a 1080p screen that \"Normal\" will often show the enire layout."
+	],
+	dependencies: [
+		"e30ee99d"
+	],
+	tasks: [{
+		uid: "10f142ec",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "92c07965",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

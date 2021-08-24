@@ -1,0 +1,41 @@
+{
+	title: "I'm Tired",
+	icon: "exnihilocreatio:block_auto_sifter",
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"This sieve takes all my time. I've got to find a way to do this while I'm sipping drinks at the beach. I was searching through JEI and this Auto Sifter looked interesting. I thought, if I could connect it to a waterwheel, then maybe, jut maybe I could retire to that beach."
+	],
+	dependencies: [
+		"4a453b40"
+	],
+	tasks: [{
+		uid: "93789ef7",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_auto_sifter"
+		}]
+	},
+	{
+		uid: "84a29d12",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_axle_stone 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "9a77a61a",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_waterwheel 5"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "eadc5113",
+		type: "item",
+		item: "ancientwarfarenpc:food_bundle",
+		count: 8
+	}]
+}

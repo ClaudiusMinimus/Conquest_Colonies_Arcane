@@ -1,0 +1,29 @@
+{
+	title: "One BIG Drawer",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: -4.25d,
+	y: 5.5d,
+	text: [
+		"So much stuff! What shall I do?  I need something bigger!"
+	],
+	dependencies: [
+		"9ea7c9be"
+	],
+	tasks: [{
+		uid: "3c5ae97a",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			Count: 8b,
+			tag: {
+				material: "oak"
+			}
+		}],
+		count: 8L
+	}]
+}

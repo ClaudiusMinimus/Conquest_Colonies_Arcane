@@ -1,0 +1,20 @@
+{
+	title: "Its Irononic",
+	icon: "exnihilocreatio:item_mesh 1 3",
+	x: -0.5d,
+	y: 3.0d,
+	text: [
+		"That flint mesh was great, but I saw Rusty and he said that Gommer said, that Billy Bob said an Iron Mesh might work even better."
+	],
+	dependencies: [
+		"57fe82f9"
+	],
+	tasks: [{
+		uid: "a9c251be",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 4 3"
+		}],
+		count: 4L
+	}]
+}

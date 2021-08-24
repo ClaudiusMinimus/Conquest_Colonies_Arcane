@@ -1,0 +1,125 @@
+{
+	title: "Get out your crayons",
+	icon: {
+		id: "tconstruct:pattern",
+		tag: {
+			PartType: "tconstruct:pick_head"
+		}
+	},
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"We need a way to put the patterns for the tool parts we need on to your new blank patterns. Place the blank patterns on the Stencil Table and then make the following patterns:  Pickaxe Head, Binding, Tool Rod, Shovel Head, Axe Head, Sword Blade, Wide Guard, Sharpening Kit, and a Kama Head.",
+		"",
+		"Once you have claimed your quest reward, you can put your fancy new patterns in your brand new genuine Pattern Chest."
+	],
+	dependencies: [
+		"2013a84d"
+	],
+	tasks: [{
+		uid: "f07cfa67",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "756a7f76",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "280fc35d",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "e4a80db2",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "cfdac33c",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "3c1b6cc3",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "c7752fab",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:wide_guard"
+			}
+		}]
+	},
+	{
+		uid: "08010f66",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:kama_head"
+			}
+		}]
+	},
+	{
+		uid: "3100fb39",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "09232454",
+		type: "item",
+		item: "tconstruct:tooltables 1 4"
+	},
+	{
+		uid: "1b161fde",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "stone"
+			}
+		},
+		count: 10
+	}]
+}

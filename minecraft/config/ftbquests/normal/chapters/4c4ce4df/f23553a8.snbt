@@ -1,0 +1,49 @@
+{
+	title: "iForge",
+	icon: {
+		id: "tconstruct:toolforge",
+		tag: {
+			textureBlock: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:iron_block",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"In order to craft more powerful TC tools and weapons, you will need a Tool Forge. You should have enough Seared Stone Bricks, but you will need your Tool Station and four blocks of iron."
+	],
+	dependencies: [
+		"f2ac3ad0"
+	],
+	tasks: [{
+		uid: "77cd710b",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "ea7b7e2f",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 4
+	}]
+}

@@ -1,0 +1,89 @@
+{
+	title: "Sift the Seeds",
+	icon: "exnihilocreatio:item_seed_oak",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Seeds! Seeds! Get your seeds! Take a stack of dirt, sift it with string mesh in the sieve and see what comes out."
+	],
+	dependencies: [
+		"4a453b40"
+	],
+	tasks: [{
+		uid: "5606e718",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds 12"
+		}],
+		count: 12L
+	},
+	{
+		uid: "957bb65a",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "8ccf4c9f",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "99efcf9b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_seed_oak 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "1c4cb4b6",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_seed_birch 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "f77ebdba",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_seed_jungle 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "ef5e5f5b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_seed_sugarcane 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e0ef85ba",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_seed_potato 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e28e6db2",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_seed_carrot 3"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "c13387c3",
+		type: "item",
+		item: "openblocks:sprinkler"
+	}]
+}

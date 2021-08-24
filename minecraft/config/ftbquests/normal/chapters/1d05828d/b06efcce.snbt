@@ -1,0 +1,25 @@
+{
+	title: "Infinity & Beyond",
+	icon: "backpacks16840:quantum_chest",
+	x: -4.25d,
+	y: -2.0d,
+	text: [
+		"Have you ever lost your backpack? Well look no further for your troubles are soon to be forgotten. A humble Quantum Chest can provide infinite copies of your backpack. Just place your backpack in the top of the Quantum Chest and pull an infinite amount Quantum Backpack out the bottom, so you should never lose the contents of your backpack again!"
+	],
+	dependencies: [
+		"d8af20a0"
+	],
+	tasks: [{
+		uid: "00d8970d",
+		type: "item",
+		items: [{
+			item: "backpacks16840:quantum_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "37e3b879",
+		type: "item",
+		item: "cyclicmagic:heart_food",
+		count: 2
+	}]
+}

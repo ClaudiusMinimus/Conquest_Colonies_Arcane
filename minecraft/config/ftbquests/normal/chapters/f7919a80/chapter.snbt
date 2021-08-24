@@ -1,0 +1,9 @@
+{
+	title: "Farming, Hunting & Ranching",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

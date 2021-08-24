@@ -1,0 +1,54 @@
+{
+	title: "Gravel, Sand, and Dust - Oh my",
+	icon: "minecraft:gravel",
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		"I hate to break this to you, but you are no longer in Oz and that caveman's secrets are long forgotten. There is a rumor that he really did take stone or cobble and beat it, crushed it and then pulverized into gravel, sand, then dust. Your mission if you accept is to beat, crush and pulverize your stones into 64 gravel and 64 dust. Also, get 64 dirt."
+	],
+	dependencies: [
+		"0f813ce6"
+	],
+	tasks: [{
+		uid: "3997c753",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "65f39249",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_dust 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d1a1dafc",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt 64"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "02296b2d",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 64
+	},
+	{
+		uid: "2f6e3166",
+		type: "item",
+		item: "minecraft:sand",
+		count: 64
+	},
+	{
+		uid: "af83e8c9",
+		type: "item",
+		item: "exnihilocreatio:block_dust",
+		count: 64
+	}]
+}

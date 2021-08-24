@@ -1,0 +1,71 @@
+{
+	title: "We're casting now",
+	icon: {
+		id: "tconstruct:cast",
+		tag: {
+			PartType: "tconstruct:pick_head"
+		}
+	},
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"One of the Smeltery's function is to provide the molten metal to make tool part casts and cast parts. Casts can be made of Clay, Aluminum Brass or Gold. Clay is single use. Both Aluminum Brass and Gold casts can be used indefinitely. Gold casts cost two ingots, whereas Aluminum Brass costs only one.",
+		"",
+		"Aluminum Brass is one part copper and three parts aluminum.",
+		"",
+		"To make a cast first smelt the material to be used for the cast. Make a stone part on the Part Builder of the part you want to cast. Place the part on the casting table. Right-click the Smeltery Controller and click on the molten clay or metal for the cast so that it is at the bottom of the Smeltery. Right-click the faucet to let the molten material flow and make the cast."
+	],
+	dependencies: [
+		"f23553a8"
+	],
+	tasks: [{
+		uid: "2153341c",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "3bf79065",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "a8bc5b6f",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "87cf3bc9",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "eb6f4892",
+		type: "item",
+		item: {
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "knightslime"
+			}
+		}
+	}]
+}

@@ -1,0 +1,60 @@
+{
+	title: "Oh my, I'm smelting",
+	icon: "tconstruct:smeltery_controller",
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"A basic Smeltery must be at least 2x2 on the inside to hold the ores. The book, Materials and You state it must be 3x3, but that has changed. A Smeltery can be as large as 11x11, but 2x2 will suffice for starting out. Open Materials and You to the Smeltery section for more information and illustrations. You will know you have built it correctly when the Smeltery Controller panel lights up."
+	],
+	dependencies: [
+		"453eb487"
+	],
+	tasks: [{
+		uid: "92ba5c0f",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "538b2870",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "8137e8be",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "bcafd6c3",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "5997fad1",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "9a282b1b",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 9 3"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "9a8a8da3",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	}]
+}

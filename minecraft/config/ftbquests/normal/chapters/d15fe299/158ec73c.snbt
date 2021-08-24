@@ -1,0 +1,36 @@
+{
+	title: "Red Knuckle Quest",
+	icon: "minecraft:log",
+	x: 0.5d,
+	y: 1.25d,
+	text: [
+		"In order to do most anything you will need a crafting grid. Go and punch a tree with your fist to gather 8 logs"
+	],
+	dependencies: [
+		"e229bd66"
+	],
+	tasks: [{
+		uid: "16d58e01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3003724e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

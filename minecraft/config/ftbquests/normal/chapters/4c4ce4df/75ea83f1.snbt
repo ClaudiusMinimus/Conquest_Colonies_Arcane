@@ -1,0 +1,87 @@
+{
+	title: "Stone Cast",
+	icon: {
+		id: "tconstruct:cast",
+		tag: {
+			PartType: "conarm:chest_core"
+		}
+	},
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Make casts to upgrade or make new armor parts. Use the patterns you used to craft your flint armor Core parts to craft some stone parts  for each new cast. Please each stone part on your Smeltery casting table, one at a time, to make your casts from either Gold or Aluminum Brass."
+	],
+	dependencies: [
+		"876b9783"
+	],
+	tasks: [{
+		uid: "d2469b3c",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:helmet_core"
+			}
+		}]
+	},
+	{
+		uid: "eaae61c9",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:chest_core"
+			}
+		}]
+	},
+	{
+		uid: "8be4538c",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:leggings_core"
+			}
+		}]
+	},
+	{
+		uid: "adc45ba2",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:boots_core"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bc9cde1a",
+		type: "item",
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:armor_trim"
+			}
+		}
+	},
+	{
+		uid: "2e33d942",
+		type: "item",
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:armor_plate"
+			}
+		}
+	},
+	{
+		uid: "aa5c6dcc",
+		type: "item",
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:polishing_kit"
+			}
+		}
+	}]
+}

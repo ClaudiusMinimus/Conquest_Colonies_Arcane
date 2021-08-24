@@ -1,0 +1,36 @@
+{
+	title: "That bling meshed up",
+	icon: "exnihilocreatio:item_mesh 1 4",
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"I just love my bling and I thought if I put some diamonds on my mesh would that bring me riches?",
+		"",
+		"If you want to be filthy rich, then enchant your meshes with Sieve Fortune I, II, or III Sieve Efficiency I-V"
+	],
+	dependencies: [
+		"867a1cbe"
+	],
+	tasks: [{
+		uid: "5b500463",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 4 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "69a01608",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 44s
+				}]
+			}
+		},
+		count: 4
+	}]
+}

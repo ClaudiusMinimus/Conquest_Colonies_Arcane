@@ -1,0 +1,26 @@
+{
+	title: "I've got rocks in my head",
+	icon: "tp:cobblegen_block",
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"I dreaming of cobblestone, like the ones I used to know. Where the... oh I forget. ",
+		"",
+		"I've got an id, let's play with lava and water and make some cobble... maybe we will get cooked right nice... or we could make one of then fandangled Cobblestone Generators."
+	],
+	dependencies: [
+		"93fc6577"
+	],
+	tasks: [{
+		uid: "699f5495",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "a05eecd4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

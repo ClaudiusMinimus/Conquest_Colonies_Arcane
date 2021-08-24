@@ -1,0 +1,25 @@
+{
+	title: "Some Helpful Commands",
+	icon: "bibliocraft:clipboard",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"These may help you in-game:",
+		"1. Try \"/rtp\" to teleport to a random location",
+		"2. \"/spawn\" to teleport home",
+		"3. \"/tpa [player name]\" to teleport to the player specified. The other player will need to click \"Accept\" to complete the teleport.",
+		"4. \"t\" to open the chat window and message other players."
+	],
+	dependencies: [
+		"e30ee99d"
+	],
+	tasks: [{
+		uid: "e3625c36",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d4e07a94",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

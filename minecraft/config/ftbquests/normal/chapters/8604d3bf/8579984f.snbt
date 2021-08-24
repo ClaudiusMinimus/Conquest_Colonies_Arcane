@@ -1,0 +1,30 @@
+{
+	title: "Into the Crucible",
+	icon: "exnihilocreatio:block_crucible",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"What if you could make lava! Make an Unfired Crucible, then fired it! I mean, bake it in a furnace. A Crucible can hold four pieces of cobblestone and with a heat source under it, you will make lava. Check JEI for various meltable blocks available to the Crucible.",
+		"",
+		"Below are the available heat sources for the Crucible",
+		"",
+		"Heat source  /  Rate",
+		"Minecraft Torch  /  1x",
+		"Lava source or flowing  /  3x"
+	],
+	dependencies: [
+		"93fc6577"
+	],
+	tasks: [{
+		uid: "6c318d1e",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "be84adaf",
+		type: "item",
+		item: "minecraft:bucket"
+	}]
+}

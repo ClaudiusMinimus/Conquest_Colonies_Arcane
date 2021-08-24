@@ -1,0 +1,42 @@
+{
+	title: "Oh my, what nice chunks you've got",
+	icon: "exnihilocreatio:item_ore_iron 1 1",
+	x: -0.5d,
+	y: 4.5d,
+	text: [
+		"Now that you have 32 iron ore pieces and 16 gold ore pieces you can get real chunky. In a 2x2 grid pattern, craft your ore pieces into ore chunks.",
+		"",
+		"Now you could just throw those ore chunks in your trusty old furnace and smelt them up real nice or you can start doing some ore doubling. The fastest way of doing that is putting the ore chunks into a Tinkers Construct (\"TC\") smeltery, which is in another questline. There are several other ways to do ore doubling - take a look at JEI to find out."
+	],
+	dependencies: [
+		"be3dd38b"
+	],
+	tasks: [{
+		uid: "bd55a5b4",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_iron 8 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "309908fb",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_gold 4 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "498d3ef9",
+		type: "item",
+		item: "exnihilocreatio:item_ore_iron 1 1",
+		count: 8
+	},
+	{
+		uid: "20bb7295",
+		type: "item",
+		item: "exnihilocreatio:item_ore_gold 1 1",
+		count: 4
+	}]
+}
