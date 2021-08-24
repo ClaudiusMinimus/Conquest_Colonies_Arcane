@@ -14,6 +14,9 @@ minecraft/screenshots/*
 minecraft/server-resource-packs/*
 minecraft/shaderpacks/*
 minecraft/texturepacks/*
+server/mods/*
+server/logs/*
+server/local/*
 
 # ignore files
 Conquest_Industrial_Arcane.code-workspace
@@ -29,6 +32,7 @@ minecraft/optionsof.txt
 minecraft/patchouli_data.json
 minecraft/usercache.json
 minecraft/usernamecache.json
+server/server.zip
 
 #do not ignore these folders
 !minecraft/config/brandon3055
@@ -43,3 +47,12 @@ minecraft/config/brandon3055/ProjectIntelligence/*
 !minecraft/config/bonsaitrees
 !minecraft/config/geolosys.json
 !minecraft/config/quark.cfg
+!minecraft/config/tips.cfg
+server/minecraft_server.1.12.2/*
+server/llibrary/*
+server/libraries/*
+server/journeymap/*
+/minecraft/saves/*
+server/Dregora*/*
+server/config/*
+minecraft/mods*/*
