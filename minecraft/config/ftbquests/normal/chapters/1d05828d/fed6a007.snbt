@@ -1,13 +1,13 @@
 {
 	title: "Shove them In",
 	icon: "storagedrawers:compdrawers",
-	x: -2.75d,
-	y: 5.5d,
+	x: -4.0d,
+	y: 4.0d,
 	text: [
 		"With a Compacting Drawer, you can put in most items that compress to form blocks."
 	],
 	dependencies: [
-		"128ab19c"
+		"65cd5ec7"
 	],
 	tasks: [{
 		uid: "8f1a25dd",

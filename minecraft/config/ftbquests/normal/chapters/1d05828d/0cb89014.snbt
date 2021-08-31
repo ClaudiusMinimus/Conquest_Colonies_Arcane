@@ -13,7 +13,18 @@
 		uid: "3bbc9b5a",
 		type: "item",
 		items: [{
-			item: "storagedrawers:trim 8"
+			ForgeCaps: {
+				Parent: {
+					data: "drawerTrim",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerTrim"
+				}
+			}
 		}],
 		count: 8L
 	}]

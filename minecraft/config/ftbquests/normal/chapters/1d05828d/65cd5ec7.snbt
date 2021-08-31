@@ -19,12 +19,18 @@
 		uid: "0496fe2a",
 		type: "item",
 		items: [{
-			id: "storagedrawers:basicdrawers",
-			Count: 8b,
-			tag: {
-				material: "oak"
+			ForgeCaps: {
+				Parent: {
+					data: "drawerBasic",
+					id: "ore"
+				}
 			},
-			Damage: 2s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
+				}
+			}
 		}],
 		count: 8L
 	}],

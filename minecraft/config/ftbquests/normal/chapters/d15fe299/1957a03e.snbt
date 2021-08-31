@@ -5,13 +5,13 @@
 	y: 1.25d,
 	shape: "diamond",
 	text: [
-		"Conquest Colonies Arcane builds upon the beauty of Conquest Reforged and the challenge of MineColonies, the pack itself is based upon Conquest Colonies by, Dranem. In this world of yesteryear, you will also enjoy a few of the modern tools of technology mixed with some magic sprinkled in. However, watch out for many powerful mythical monsters that can kill with a single breath.",
+		"Conquest Colonies Arcane builds upon the beauty of Conquest Reforged and the challenge of Ancient Warfare 2. In this world of yesteryear, you will enjoy a few industrial tools mixed with some magic sprinkled in. However, watch out for powerful mobs!",
 		"",
 		"Eventually, you will ride with the winds and into legend...",
 		"",
 		"Be sure to have fun along the way!",
 		"",
-		"Enjoy your slime boots - eliminates fall damage!"
+		"Enjoy your Healer Boots"
 	],
 	dependency_requirement: "one_completed",
 	size: 1.5d,
@@ -20,13 +20,13 @@
 		type: "checkmark"
 	}],
 	rewards: [{
-		uid: "c1a57d0b",
-		type: "item",
-		item: "tconstruct:slime_boots"
-	},
-	{
 		uid: "75938067",
 		type: "ftbmoney:money",
 		ftb_money: 10L
+	},
+	{
+		uid: "67918e79",
+		type: "item",
+		item: "ebwizardry:wizard_boots_healing"
 	}]
 }

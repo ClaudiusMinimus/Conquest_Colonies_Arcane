@@ -6,11 +6,7 @@
 	text: [
 		">>>> IMPORTANT <<<<",
 		"",
-		"The mod, Conquest Reforged (\"CR\") somehow changes some vanilla blocks properties. Therefore, breaking blocks with Tinkers Construct or Draconic Evolution pickaxes does not drop Minecraft vanilla stone, andesite, diorite, granite, and packed ice, rather pickaxes from both mods destroy the block and it is lost. DO NOT use these pickaxes for Minecolonies Mining Hut since you will not be rewarded with any of the affected blocks. Be sure to use the right pickaxe for these mentioned blocks. If there are other blocks or tools affected by this issue, please report this on the CCA issue tracker on curseforge.com or on or discord at: §bhttps://discord.gg/jXrx4Tu §r(sorry does not link)",
-		"",
-		"However, these tools do work fine on the CR generated stone blocks, like granite, slate, and others.",
-		"",
-		"Ore generation is heavily controlled by CR, which is why Mystical Agriculture and Ex Nihilo: Creatio mods have been added. With the addition of Cyclic, the Nether and End both have easily minable ores.",
+		"Ore generation is greatly inhibited by Conquest Reforged (CR). The mod, ExNihilo Creatio provides the ability to obtain all vanilla ores and more.",
 		"",
 		"And finally. If you are in a world that has been pre-generated with CR turned off, then you will have normal ore generation in those chunks. The unique CR blocks will be mostly outside the pre-generated area.",
 		"",

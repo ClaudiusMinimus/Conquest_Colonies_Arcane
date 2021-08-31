@@ -2,7 +2,7 @@
 	title: "Getting Started",
 	description: [
 		"Welcome to Conquest Colonies Arcane (\"CCA\")",
-		"Questlines do not have to be complete in order shown. Some quests have prerequisites in other questlines. If Minecolonies is your thing, then you can start it at any time. For many players starting Minecolonies later, after you have a good base with lots of resources may be your thing. The point is to complete the quests as you like."
+		"Questlines do not have to be complete in the order shown. Some quests have prerequisites in other questlines. The point is to complete the quests as you like."
 	],
 	always_invisible: false,
 	group: 0,
