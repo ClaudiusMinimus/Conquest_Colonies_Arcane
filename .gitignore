@@ -56,3 +56,16 @@ server/journeymap/*
 server/Dregora*/*
 server/config/*
 minecraft/mods*/*
+minecraft/optionsshaders.txt
+server/whitelist.json
+server/usernamecache.json
+server/usercache.json
+server/minecraft_server.1.12.2.jar
+server/forge-1.12.2-14.23.5.2854.jar
+server/eula.txt
+server/Dregora_2-25-2021.zip
+server/crafttweaker.log
+server/ops.json
+server/banned-players.json
+server/banned-ips.json
+server/1.12.2.json
