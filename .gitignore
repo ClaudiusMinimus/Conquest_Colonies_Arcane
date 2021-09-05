@@ -1,5 +1,4 @@
 #ignore folders
-natives/*
 minecraft/config/*
 minecraft/coremods/*
 minecraft/crash-reports/*
@@ -7,6 +6,7 @@ minecraft/journeymap/*
 minecraft/llibrary/*
 minecraft/local/*
 minecraft/logs/*
+minecraft/mods*/*
 minecraft/mods/*
 minecraft/resourcepacks/*
 minecraft/saves/*
@@ -14,13 +14,20 @@ minecraft/screenshots/*
 minecraft/server-resource-packs/*
 minecraft/shaderpacks/*
 minecraft/texturepacks/*
-server/mods/*
-server/logs/*
+natives/*
+server/config/*
+server/Dregora*/*
+server/journeymap/*
+server/libraries/*
+server/llibrary/*
 server/local/*
+server/logs/*
+server/mods/*
 
 # ignore files
-Conquest_Industrial_Arcane.code-workspace
 .packignore
+*.log
+Conquest_Industrial_Arcane.code-workspace
 instance.cfg
 minecraft/.ReAuth.cfg
 minecraft/BotaniaVars.dat
@@ -29,15 +36,32 @@ minecraft/icon.png
 minecraft/knownkeys.txt
 minecraft/options.txt
 minecraft/optionsof.txt
+minecraft/optionsshaders.txt
 minecraft/patchouli_data.json
 minecraft/usercache.json
 minecraft/usernamecache.json
+server/1.12.2.json
+server/banned-ips.json
+server/banned-players.json
+server/crafttweaker.log
+server/Dregora*.zip
+server/eula.txt
+server/forge-*.jar
+server/minecraft_server.1.12.2.jar
+server/minecraft_server.1.12.2/*
+server/ops.json
 server/server.zip
+server/usercache.json
+server/usernamecache.json
+server/whitelist.json
+
 
 #do not ignore these folders
+!minecraft/config/adminshop
 !minecraft/config/brandon3055
 !minecraft/config/brandon3055/CSG
 !minecraft/config/ftbquests
+!minecraft/config/gemsplusplus
 #but still ignore these
 minecraft/config/brandon3055/*.cfg
 minecraft/config/brandon3055/*.txt
@@ -47,25 +71,5 @@ minecraft/config/brandon3055/ProjectIntelligence/*
 !minecraft/config/bonsaitrees
 !minecraft/config/geolosys.json
 !minecraft/config/quark.cfg
+!minecraft/config/solcarrot.cfg
 !minecraft/config/tips.cfg
-server/minecraft_server.1.12.2/*
-server/llibrary/*
-server/libraries/*
-server/journeymap/*
-/minecraft/saves/*
-server/Dregora*/*
-server/config/*
-minecraft/mods*/*
-minecraft/optionsshaders.txt
-server/whitelist.json
-server/usernamecache.json
-server/usercache.json
-server/minecraft_server.1.12.2.jar
-server/forge-1.12.2-14.23.5.2854.jar
-server/eula.txt
-server/Dregora_2-25-2021.zip
-server/crafttweaker.log
-server/ops.json
-server/banned-players.json
-server/banned-ips.json
-server/1.12.2.json
