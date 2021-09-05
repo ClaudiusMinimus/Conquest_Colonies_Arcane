@@ -22,10 +22,5 @@
 		type: "item",
 		item: "minecraft:quartz",
 		count: 64
-	},
-	{
-		uid: "0716cc23",
-		type: "item",
-		item: "exnihilocreatio:block_endstone_crushed"
 	}]
 }

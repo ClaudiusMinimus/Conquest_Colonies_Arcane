@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efa1a4a7",
+		type: "item",
+		item: "exnihilocreatio:item_material 1 2",
+		count: 4
 	}]
 }

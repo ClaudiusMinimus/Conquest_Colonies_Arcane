@@ -19,7 +19,7 @@
 	rewards: [{
 		uid: "37e3b879",
 		type: "item",
-		item: "cyclicmagic:heart_food",
+		item: "backpacks16840:backpack_pouch",
 		count: 2
 	}]
 }

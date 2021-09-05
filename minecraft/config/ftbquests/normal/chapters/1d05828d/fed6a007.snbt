@@ -16,5 +16,10 @@
 			item: "storagedrawers:compdrawers 4"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "307ce9ff",
+		type: "item",
+		item: "storagedrawers:compdrawers"
 	}]
 }

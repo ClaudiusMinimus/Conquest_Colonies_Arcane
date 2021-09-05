@@ -21,5 +21,16 @@
 		uid: "9e6a3480",
 		type: "dimension",
 		dim: -1
+	}],
+	rewards: [{
+		uid: "fe6e38ee",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		},
+		count: 3
 	}]
 }
