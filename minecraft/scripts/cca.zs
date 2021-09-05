@@ -1,10 +1,13 @@
 // ================================================================================
 //#MARKER REMOVE
-//# Remove wood trapdoot as CF messes up recipe
+//# Remove wood trapdoor as CF messes up recipe
 recipes.remove(<minecraft:trapdoor>);
 
 //# Remove Exnihilo Stone Gear as it conflicts with CF
 recipes.removeShaped(<exnihilocreatio:item_material:7>, [[null, <minecraft:cobblestone>, null], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [null, <minecraft:cobblestone>, null]]);
+
+//# Remove Rustic Stake as CF messes up recipe
+recipes.remove(<rustic:crop_stake>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -25,10 +28,13 @@ recipes.addShapeless(<minecraft:trapdoor> * 2, [<minecraft:planks>, <ore:doorWoo
 //#MARKER ADD SHAPED
 
 //# Add Exnihilo Stone Gear that does not conflict with CF
-recipes.addShaped(<exnihilocreatio:item_material:7>, [[<minecraft:stick>, <minecraft:cobblestone>, <minecraft:stick>], [<minecraft:cobblestone>, null, <minecraft:cobblestone>], [<ore:stickWood>, <minecraft:cobblestone>, <minecraft:stick>]]);
+recipes.addShaped(<exnihilocreatio:item_material:7>, [[<ore:stickWood>, <minecraft:cobblestone>, <ore:stickWood>], [<minecraft:cobblestone>, null, <minecraft:cobblestone>], [<ore:stickWood>, <minecraft:cobblestone>, <ore:stickWood>]]);
 
 //# 4 chests from 8 logs
-recipes.addShaped(<minecraft:chest> * 4, [[<minecraft:log>, <ore:logWood>, <ore:logWood>], [<minecraft:log>, null, <minecraft:log>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
+recipes.addShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 //# 16 Sticks from 2 logs
-recipes.addShaped(<minecraft:stick> * 16, [[<minecraft:log>], [<minecraft:log>]]);
+recipes.addShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
+
+//# Rustic Stake from 6 sticks
+recipes.addShaped(<rustic:crop_stake>, [[<ore:stickWood>, null, <ore:stickWood>],[<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>]]);
