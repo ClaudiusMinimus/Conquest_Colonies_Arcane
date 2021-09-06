@@ -38,3 +38,6 @@ recipes.addShaped(<minecraft:stick> * 16, [[<ore:logWood>], [<ore:logWood>]]);
 
 //# Rustic Stake from 6 sticks
 recipes.addShaped(<rustic:crop_stake>, [[<ore:stickWood>, null, <ore:stickWood>],[<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>]]);
+
+//# Recipe to craft Spectre Coil
+recipes.addShaped(<randomthings:spectrecoil_number>, [[<ore:blockRedstone>, <randomthings:ingredient:3>, <minecraft:redstone_block>], [<randomthings:ingredient:12>, <randomthings:spectrecharger>, <randomthings:ingredient:12>], [<ore:blockRedstone>, <randomthings:ingredient:3>, <minecraft:redstone_block>]]);
