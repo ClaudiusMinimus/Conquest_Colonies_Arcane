@@ -14,6 +14,8 @@ minecraft/screenshots/*
 minecraft/server-resource-packs/*
 minecraft/shaderpacks/*
 minecraft/texturepacks/*
+minecraft/XaeroWaypoints/*
+minecraft/XaeroWorldMap/*
 natives/*
 server/config/*
 server/Dregora*/*
@@ -40,6 +42,7 @@ minecraft/optionsshaders.txt
 minecraft/patchouli_data.json
 minecraft/usercache.json
 minecraft/usernamecache.json
+minecraft/XaeroWaypoints_BACKUP0*
 server/1.12.2.json
 server/banned-ips.json
 server/banned-players.json
