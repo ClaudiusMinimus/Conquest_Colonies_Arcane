@@ -15,9 +15,8 @@
 		uid: "5b500463",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_mesh 4 4"
-		}],
-		count: 4L
+			item: "exnihilocreatio:item_mesh 1 4"
+		}]
 	}],
 	rewards: [{
 		uid: "69a01608",

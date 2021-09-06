@@ -85,5 +85,10 @@
 		uid: "c13387c3",
 		type: "item",
 		item: "openblocks:sprinkler"
+	},
+	{
+		uid: "9b0a30cc",
+		type: "item",
+		item: "openblocks:tank"
 	}]
 }

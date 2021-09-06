@@ -17,14 +17,12 @@
 		uid: "38d85d7d",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_mesh 4 2"
-		}],
-		count: 4L
+			item: "exnihilocreatio:item_mesh 1 2"
+		}]
 	}],
 	rewards: [{
 		uid: "dc5b1acc",
 		type: "item",
-		item: "exnihilocreatio:item_mesh 1 2",
-		count: 4
+		item: "exnihilocreatio:item_mesh 1 2"
 	}]
 }

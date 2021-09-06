@@ -13,14 +13,12 @@
 		uid: "a9c251be",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_mesh 4 3"
-		}],
-		count: 4L
+			item: "exnihilocreatio:item_mesh 1 3"
+		}]
 	}],
 	rewards: [{
 		uid: "bd6f9d36",
 		type: "item",
-		item: "exnihilocreatio:item_mesh 1 3",
-		count: 4
+		item: "exnihilocreatio:item_mesh 1 3"
 	}]
 }
