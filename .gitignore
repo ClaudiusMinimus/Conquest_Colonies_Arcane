@@ -70,6 +70,8 @@ minecraft/config/brandon3055/ProjectIntelligence/*
 #do not ignore these files
 !minecraft/config/bonsaitrees
 !minecraft/config/geolosys.json
+!minecraft/config/pickletweaks.cfg
 !minecraft/config/quark.cfg
+!minecraft/config/randomthings.cfg
 !minecraft/config/solcarrot.cfg
 !minecraft/config/tips.cfg
