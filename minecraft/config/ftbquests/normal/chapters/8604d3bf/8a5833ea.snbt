@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	description: "You can power this with a Spectre Coil",
+	dependencies: [
+		"1f9bd317"
+	],
+	tasks: [{
+		uid: "892a803a",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_heavy_sieve"
+		}]
+	}]
+}

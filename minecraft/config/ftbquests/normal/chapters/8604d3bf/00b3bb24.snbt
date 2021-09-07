@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: -4.5d,
+	dependencies: [
+		"42a1cb75"
+	],
+	tasks: [{
+		uid: "dc521cc4",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 3"
+		}]
+	},
+	{
+		uid: "75d8bd1a",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 12"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "aeb2aa29",
+		type: "item",
+		item: "randomthings:ingredient 1 3"
+	}]
+}

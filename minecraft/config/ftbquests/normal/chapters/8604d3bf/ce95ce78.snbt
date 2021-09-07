@@ -1,20 +1,20 @@
 {
-	x: -5.0d,
+	x: -6.5d,
 	y: 0.0d,
 	description: "You can power this with a Spectre Coil",
 	dependencies: [
-		"0f813ce6"
+		"5a1880e7"
 	],
 	tasks: [{
-		uid: "8f8a75c1",
+		uid: "3c47ce53",
 		type: "item",
 		items: [{
-			item: "excompressum:auto_hammer"
+			item: "excompressum:auto_compressed_hammer"
 		}]
 	}],
 	rewards: [{
-		uid: "decc312f",
+		uid: "49715ae3",
 		type: "item",
-		item: "exnihilocreatio:hammer_diamond"
+		item: "excompressum:compressed_hammer_diamond"
 	}]
 }

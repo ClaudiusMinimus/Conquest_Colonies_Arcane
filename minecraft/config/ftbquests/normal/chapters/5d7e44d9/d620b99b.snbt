@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	shape: "diamond",
+	text: [
+		"Ancient Warfare provides medieval based working power creation and transmission systems, automated resource collection for crops, trees, and mining as well as mass resource storage and processing. This done through working windmills, waterwheels, and",
+		"(The above is taken from the Ancient Warfare Curseforge page)",
+		"",
+		"The first thing you will need is a Research Book, though you will need two, which is why it will also be your reward. With this book and its associated benches, you will research all aspects of Ancient Warfare and craft most everything for this mod.",
+		"",
+		"You also need to Right-Click with each book to register it to you."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "074b5063",
+		type: "item",
+		items: [{
+			item: "ancientwarfare:research_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15a48815",
+		type: "item",
+		item: "ancientwarfare:research_book"
+	}]
+}

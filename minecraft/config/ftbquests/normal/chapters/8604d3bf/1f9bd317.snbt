@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	description: "You can power this with a Spectre Coil",
+	dependencies: [
+		"68a160ce"
+	],
+	tasks: [{
+		uid: "8319d910",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "982c6038",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 36s
+				}]
+			}
+		}
+	}]
+}
